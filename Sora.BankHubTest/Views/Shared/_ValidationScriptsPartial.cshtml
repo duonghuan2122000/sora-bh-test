@@ -1,0 +1,26 @@
+﻿<script src="~/lib/jquery-validation/dist/jquery.validate.min.js" asp-append-version="true"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" asp-append-version="true"></script>
+<script>
+    $.validator.setDefaults({
+        errorClass: "",
+        validClass: "",
+        highlight: function (element, errorClass, validClass) {
+            $(element).addClass("is-invalid").removeClass("is-valid");
+            $(element.form).find('[data-valmsg-for="' + element.name + '"]').addClass("invalid-feedback");
+        },
+        unhighlight: function (element, errorClass, validClass) {
+            $(element).addClass("is-valid").removeClass("is-invalid");
+            $(element.form).find('[data-valmsg-for="' + element.name + '"]').removeClass("invalid-feedback");
+        },
+    });
+
+    $(function () {
+        $("form").each(function () {
+            $(this).find(".control-group").each(function () {
+                if ($(this).find(".field-validation-error").length > 0) {
+                    $(this).find(".form-control").addClass("is-invalid");
+                }
+            });
+        });
+    });
+</script>

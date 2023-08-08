@@ -1,0 +1,45 @@
+﻿@using Sora.BankHubTest.Entities;
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    var order = (Order)ViewData["Order"];
+}
+
+<div class="container">
+    <div class="card">
+        <div class="card-body">
+            <div class="d-flex flex-row justify-content-center">
+                <img alt="VietQR" src="@order.VietQrUrl" height="250" />
+            </div>
+            <div class="mt-3 d-flex flex-column align-items-center">
+                <div>Mã đơn hàng</div>
+                <div><b>@order.OrderId</b></div>
+            </div>
+            <div class="mt-3 d-flex flex-column align-items-center">
+                <div>Số tiền</div>
+                <div><b>@order.OrderAmount</b></div>
+            </div>
+            <div class="mt-3 d-flex flex-column align-items-center">
+                <div>Trạng thái đơn hàng</div>
+                <div><b>@order.OrderStatusText</b></div>
+            </div>
+            <div class="mt-3 d-flex flex-column align-items-center">
+                <div>Ngân hàng</div>
+                <div><b>@order.Bank.BankName</b></div>
+            </div>
+            <div class="mt-3 d-flex flex-column align-items-center">
+                <div>Số tài khoản</div>
+                <div><b>@order.Bank.AccountNo</b></div>
+            </div>
+            <div class="mt-3 d-flex flex-column align-items-center">
+                <div>Tên chủ tài khoản</div>
+                <div><b>@order.Bank.AccountName</b></div>
+            </div>
+            <div class="mt-3 d-flex flex-column align-items-center">
+                <div>Nội dung chuyển khoản</div>
+                <div><b>@order.Description</b></div>
+            </div>
+        </div>
+    </div>
+</div>

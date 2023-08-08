@@ -1,0 +1,29 @@
+﻿@using Sora.BankHubTest.Dtos;
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    var bankAccountSelectEles = (List<SelectListItem>)ViewData["BankAccountSelectEles"];
+}
+@model CreateOrderDto;
+
+<div class="container">
+    @using (Html.BeginForm("CreateOrder", "Order", FormMethod.Post)){
+        <h2>Tạo đơn hàng</h2>
+        <div class="mt-3">
+            @Html.LabelFor(x => x.OrderAmount, null, new { @class = "form-label" })
+            @Html.TextBoxFor(x => x.OrderAmount, null, new { @class = "form-control", @autoFocus = true })
+            @Html.ValidationMessageFor(x => x.OrderAmount, null, new { @class = "invalid-feedback" })
+        </div>
+        <div class="mt-3">
+            @Html.LabelFor(x => x.BankAccountId, null, new { @class = "form-label" })
+            @Html.DropDownListFor(x => x.BankAccountId, bankAccountSelectEles, null, new { @class = "form-select" })
+            @Html.ValidationMessageFor(x => x.BankAccountId, null, new { @class = "invalid-feedback" })
+        </div>
+        <button class="btn btn-primary mt-3">Thanh toán</button>
+    }
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

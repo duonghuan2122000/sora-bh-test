@@ -1,0 +1,913 @@
+2023-08-08 07:18:41.768 +07:00 [INF] Starting web application
+2023-08-08 07:18:47.324 +07:00 [INF] Loaded ABP modules:
+2023-08-08 07:18:47.327 +07:00 [INF] - Sora.BankHubTest.BankHubTestModule
+2023-08-08 07:18:47.329 +07:00 [INF]   - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2023-08-08 07:18:47.330 +07:00 [INF]     - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2023-08-08 07:18:47.330 +07:00 [INF]       - Volo.Abp.Auditing.AbpAuditingModule
+2023-08-08 07:18:47.332 +07:00 [INF]         - Volo.Abp.Data.AbpDataModule
+2023-08-08 07:18:47.333 +07:00 [INF]           - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-08-08 07:18:47.334 +07:00 [INF]             - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-08-08 07:18:47.335 +07:00 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-08-08 07:18:47.337 +07:00 [INF]           - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-08-08 07:18:47.338 +07:00 [INF]           - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-08-08 07:18:47.339 +07:00 [INF]         - Volo.Abp.Json.AbpJsonModule
+2023-08-08 07:18:47.340 +07:00 [INF]           - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-08-08 07:18:47.341 +07:00 [INF]             - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-08-08 07:18:47.342 +07:00 [INF]             - Volo.Abp.Timing.AbpTimingModule
+2023-08-08 07:18:47.343 +07:00 [INF]               - Volo.Abp.Localization.AbpLocalizationModule
+2023-08-08 07:18:47.344 +07:00 [INF]                 - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-08-08 07:18:47.345 +07:00 [INF]                 - Volo.Abp.Settings.AbpSettingsModule
+2023-08-08 07:18:47.346 +07:00 [INF]                   - Volo.Abp.Security.AbpSecurityModule
+2023-08-08 07:18:47.346 +07:00 [INF]                 - Volo.Abp.Threading.AbpThreadingModule
+2023-08-08 07:18:47.348 +07:00 [INF]         - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-08-08 07:18:47.349 +07:00 [INF]           - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2023-08-08 07:18:47.350 +07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-08-08 07:18:47.351 +07:00 [INF]       - Volo.Abp.Http.AbpHttpModule
+2023-08-08 07:18:47.353 +07:00 [INF]         - Volo.Abp.Http.AbpHttpAbstractionsModule
+2023-08-08 07:18:47.354 +07:00 [INF]         - Volo.Abp.Minify.AbpMinifyModule
+2023-08-08 07:18:47.355 +07:00 [INF]       - Volo.Abp.Authorization.AbpAuthorizationModule
+2023-08-08 07:18:47.357 +07:00 [INF]         - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2023-08-08 07:18:47.358 +07:00 [INF]       - Volo.Abp.Validation.AbpValidationModule
+2023-08-08 07:18:47.359 +07:00 [INF]       - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2023-08-08 07:18:47.360 +07:00 [INF]     - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2023-08-08 07:18:47.361 +07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2023-08-08 07:18:47.362 +07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationContractsModule
+2023-08-08 07:18:47.363 +07:00 [INF]     - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2023-08-08 07:18:47.364 +07:00 [INF]       - Volo.Abp.UI.AbpUiModule
+2023-08-08 07:18:47.365 +07:00 [INF]     - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2023-08-08 07:18:47.366 +07:00 [INF]     - Volo.Abp.Application.AbpDddApplicationModule
+2023-08-08 07:18:47.368 +07:00 [INF]       - Volo.Abp.Domain.AbpDddDomainModule
+2023-08-08 07:18:47.369 +07:00 [INF]         - Volo.Abp.EventBus.AbpEventBusModule
+2023-08-08 07:18:47.370 +07:00 [INF]           - Volo.Abp.Guids.AbpGuidsModule
+2023-08-08 07:18:47.371 +07:00 [INF]           - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2023-08-08 07:18:47.372 +07:00 [INF]           - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2023-08-08 07:18:47.374 +07:00 [INF]         - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-08-08 07:18:47.375 +07:00 [INF]         - Volo.Abp.Specifications.AbpSpecificationsModule
+2023-08-08 07:18:47.376 +07:00 [INF]         - Volo.Abp.Caching.AbpCachingModule
+2023-08-08 07:18:47.377 +07:00 [INF]           - Volo.Abp.Serialization.AbpSerializationModule
+2023-08-08 07:18:47.378 +07:00 [INF]         - Volo.Abp.Domain.AbpDddDomainSharedModule
+2023-08-08 07:18:47.379 +07:00 [INF]       - Volo.Abp.Features.AbpFeaturesModule
+2023-08-08 07:18:47.381 +07:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2023-08-08 07:18:47.382 +07:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-08-08 07:18:47.384 +07:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-08-08 07:18:47.385 +07:00 [INF]   - Volo.Abp.MongoDB.AbpMongoDbModule
+2023-08-08 07:18:47.959 +07:00 [DBG] Registered model binder providers, in the following order: ["Volo.Abp.AspNetCore.Mvc.ModelBinding.AbpDateTimeModelBinderProvider","Volo.Abp.AspNetCore.Mvc.ModelBinding.AbpExtraPropertiesDictionaryModelBinderProvider","Volo.Abp.AspNetCore.Mvc.ContentFormatters.AbpRemoteStreamContentModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-08-08 07:18:48.008 +07:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-08 07:18:48.159 +07:00 [INF] Initialized all ABP modules.
+2023-08-08 07:18:48.162 +07:00 [DBG] Hosting starting
+2023-08-08 07:18:48.181 +07:00 [DBG] Reading data from file 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys\key-845e5e27-245c-4e08-92b6-05cd54f77c06.xml'.
+2023-08-08 07:18:48.210 +07:00 [DBG] Found key {845e5e27-245c-4e08-92b6-05cd54f77c06}.
+2023-08-08 07:18:48.231 +07:00 [DBG] Considering key {845e5e27-245c-4e08-92b6-05cd54f77c06} with expiration date 2023-08-20 14:39:56Z as default key.
+2023-08-08 07:18:48.236 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-08-08 07:18:48.239 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2023-08-08 07:18:48.243 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-08-08 07:18:48.250 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-08-08 07:18:48.253 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-08-08 07:18:48.257 +07:00 [DBG] Using key {845e5e27-245c-4e08-92b6-05cd54f77c06} as the default key.
+2023-08-08 07:18:48.260 +07:00 [DBG] Key ring with default key {845e5e27-245c-4e08-92b6-05cd54f77c06} was loaded during application startup.
+2023-08-08 07:18:48.393 +07:00 [INF] Now listening on: https://localhost:7266
+2023-08-08 07:18:48.395 +07:00 [INF] Now listening on: http://localhost:5215
+2023-08-08 07:18:48.397 +07:00 [DBG] Loaded hosting startup assembly Sora.BankHubTest
+2023-08-08 07:18:48.398 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-08-08 07:18:48.400 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-08-08 07:18:48.401 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-08 07:18:48.403 +07:00 [INF] Hosting environment: Development
+2023-08-08 07:18:48.404 +07:00 [INF] Content root path: C:\DBHuan\MyProject\web\Sora.BankHubTest\Sora.BankHubTest\bin\Debug\net7.0
+2023-08-08 07:18:48.405 +07:00 [DBG] Hosting started
+2023-08-08 07:18:48.841 +07:00 [DBG] Connection id "0HMSNKK4OHG8G" received FIN.
+2023-08-08 07:18:48.843 +07:00 [DBG] Connection id "0HMSNKK4OHG8H" received FIN.
+2023-08-08 07:18:48.854 +07:00 [DBG] Connection id "0HMSNKK4OHG8G" accepted.
+2023-08-08 07:18:48.854 +07:00 [DBG] Connection id "0HMSNKK4OHG8H" accepted.
+2023-08-08 07:18:48.857 +07:00 [DBG] Connection id "0HMSNKK4OHG8G" started.
+2023-08-08 07:18:48.858 +07:00 [DBG] Connection id "0HMSNKK4OHG8H" started.
+2023-08-08 07:18:48.883 +07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-08-08 07:18:48.882 +07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-08-08 07:18:48.911 +07:00 [DBG] Connection id "0HMSNKK4OHG8G" stopped.
+2023-08-08 07:18:48.911 +07:00 [DBG] Connection id "0HMSNKK4OHG8H" stopped.
+2023-08-08 07:18:48.916 +07:00 [DBG] Connection id "0HMSNKK4OHG8G" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-08 07:18:48.916 +07:00 [DBG] Connection id "0HMSNKK4OHG8H" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-08 07:18:49.010 +07:00 [DBG] Connection id "0HMSNKK4OHG8I" accepted.
+2023-08-08 07:18:49.012 +07:00 [DBG] Connection id "0HMSNKK4OHG8I" started.
+2023-08-08 07:18:49.074 +07:00 [DBG] Connection 0HMSNKK4OHG8I established using the following protocol: "Tls13"
+2023-08-08 07:18:49.153 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7266/ - -
+2023-08-08 07:18:49.166 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-08-08 07:18:49.174 +07:00 [DBG] The host 'localhost' is excluded. Skipping HSTS header.
+2023-08-08 07:18:49.178 +07:00 [DBG] The request path / does not match a supported file type
+2023-08-08 07:18:49.224 +07:00 [DBG] 1 candidate(s) found for the request path '/'
+2023-08-08 07:18:49.229 +07:00 [DBG] Endpoint 'Sora.BankHubTest.Controllers.HomeController.Index (Sora.BankHubTest)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+2023-08-08 07:18:49.233 +07:00 [DBG] Request matched endpoint 'Sora.BankHubTest.Controllers.HomeController.Index (Sora.BankHubTest)'
+2023-08-08 07:18:49.235 +07:00 [INF] Executing endpoint 'Sora.BankHubTest.Controllers.HomeController.Index (Sora.BankHubTest)'
+2023-08-08 07:18:49.266 +07:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Sora.BankHubTest.Controllers.HomeController (Sora.BankHubTest).
+2023-08-08 07:18:49.271 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.AntiForgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter"]
+2023-08-08 07:18:49.273 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-08-08 07:18:49.276 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Volo.Abp.AspNetCore.Mvc.GlobalFeatures.GlobalFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Auditing.AbpAuditActionFilter","Volo.Abp.AspNetCore.Mvc.Response.AbpNoContentActionFilter","Volo.Abp.AspNetCore.Mvc.Features.AbpFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter","Volo.Abp.AspNetCore.Mvc.Uow.AbpUowActionFilter"]
+2023-08-08 07:18:49.283 +07:00 [DBG] Execution plan of exception filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter"]
+2023-08-08 07:18:49.285 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-08-08 07:18:49.294 +07:00 [DBG] Executing controller factory for controller Sora.BankHubTest.Controllers.HomeController (Sora.BankHubTest)
+2023-08-08 07:18:49.302 +07:00 [DBG] Executed controller factory for controller Sora.BankHubTest.Controllers.HomeController (Sora.BankHubTest)
+2023-08-08 07:18:49.371 +07:00 [DBG] View lookup cache miss for view 'Index' in controller 'Home'.
+2023-08-08 07:18:49.376 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2023-08-08 07:18:49.378 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2023-08-08 07:18:49.380 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Order/Create.cshtml'.
+2023-08-08 07:18:49.381 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Order/List.cshtml'.
+2023-08-08 07:18:49.383 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Order/OrderPaymentInfo.cshtml'.
+2023-08-08 07:18:49.386 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2023-08-08 07:18:49.387 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2023-08-08 07:18:49.389 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2023-08-08 07:18:49.391 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2023-08-08 07:18:49.392 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2023-08-08 07:18:49.410 +07:00 [INF] Executing ViewResult, running view Index.
+2023-08-08 07:18:49.417 +07:00 [DBG] The view path '/Views/Home/Index.cshtml' was found in 42.9517ms.
+2023-08-08 07:18:49.443 +07:00 [DBG] View lookup cache miss for view '_Layout' in controller 'Home'.
+2023-08-08 07:18:49.553 +07:00 [DBG] Found the endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2023-08-08 07:18:49.568 +07:00 [DBG] Failed to process the template {area}/{controller=Home}/{action=Index}/{id?} for Route: {area}/{controller=Home}/{action=Index}/{id?}. A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "Index", "controller": "Home" } and { "action": "Index", "area": "", "controller": "Home" } with default values { "action": "Index", "controller": "Home" }
+2023-08-08 07:18:49.574 +07:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2023-08-08 07:18:49.579 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2023-08-08 07:18:49.585 +07:00 [DBG] Found the endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2023-08-08 07:18:49.589 +07:00 [DBG] Failed to process the template {area}/{controller=Home}/{action=Index}/{id?} for Route: {area}/{controller=Home}/{action=Index}/{id?}. A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "Index", "controller": "Home" } and { "action": "Index", "area": "", "controller": "Home" } with default values { "action": "Index", "controller": "Home" }
+2023-08-08 07:18:49.592 +07:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2023-08-08 07:18:49.595 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2023-08-08 07:18:49.602 +07:00 [DBG] Found the endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2023-08-08 07:18:49.605 +07:00 [DBG] Failed to process the template {area}/{controller=Home}/{action=Index}/{id?} for Route: {area}/{controller=Home}/{action=Index}/{id?}. A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "Index", "controller": "Home" } and { "action": "Privacy", "area": "", "controller": "Home" } with default values { "action": "Index", "controller": "Home" }
+2023-08-08 07:18:49.610 +07:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2023-08-08 07:18:49.613 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2023-08-08 07:18:49.618 +07:00 [DBG] Found the endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2023-08-08 07:18:49.623 +07:00 [DBG] Failed to process the template {area}/{controller=Home}/{action=Index}/{id?} for Route: {area}/{controller=Home}/{action=Index}/{id?}. A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "Index", "controller": "Home" } and { "action": "Privacy", "area": "", "controller": "Home" } with default values { "action": "Index", "controller": "Home" }
+2023-08-08 07:18:49.626 +07:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2023-08-08 07:18:49.629 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2023-08-08 07:18:49.666 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-08-08 07:18:49.674 +07:00 [INF] Executed ViewResult - view Index executed in 304.6674ms.
+2023-08-08 07:18:49.677 +07:00 [INF] Executed action Sora.BankHubTest.Controllers.HomeController.Index (Sora.BankHubTest) in 388.7709ms
+2023-08-08 07:18:49.679 +07:00 [INF] Executed endpoint 'Sora.BankHubTest.Controllers.HomeController.Index (Sora.BankHubTest)'
+2023-08-08 07:18:49.681 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-08-08 07:18:49.695 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7266/ - - - 200 - text/html;+charset=utf-8 542.4754ms
+2023-08-08 07:18:49.708 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7266/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-08-08 07:18:49.708 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7266/Sora.BankHubTest.styles.css?v=-PyfW1ziEiZI_G326YpRweTUVwo2LmN1wMuFOmlRU-o - -
+2023-08-08 07:18:49.708 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7266/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - -
+2023-08-08 07:18:49.709 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7266/lib/jquery/dist/jquery.min.js - -
+2023-08-08 07:18:49.709 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7266/_framework/aspnetcore-browser-refresh.js - -
+2023-08-08 07:18:49.709 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7266/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-08-08 07:18:49.710 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7266/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-08-08 07:18:49.711 +07:00 [DBG] The host 'localhost' is excluded. Skipping HSTS header.
+2023-08-08 07:18:49.712 +07:00 [DBG] The host 'localhost' is excluded. Skipping HSTS header.
+2023-08-08 07:18:49.713 +07:00 [DBG] The host 'localhost' is excluded. Skipping HSTS header.
+2023-08-08 07:18:49.715 +07:00 [DBG] The host 'localhost' is excluded. Skipping HSTS header.
+2023-08-08 07:18:49.719 +07:00 [DBG] The host 'localhost' is excluded. Skipping HSTS header.
+2023-08-08 07:18:49.720 +07:00 [DBG] The host 'localhost' is excluded. Skipping HSTS header.
+2023-08-08 07:18:49.738 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7266/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 29.4479ms
+2023-08-08 07:18:49.756 +07:00 [INF] The file /Sora.BankHubTest.styles.css was not modified
+2023-08-08 07:18:49.756 +07:00 [INF] The file /css/site.css was not modified
+2023-08-08 07:18:49.756 +07:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2023-08-08 07:18:49.756 +07:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2023-08-08 07:18:49.756 +07:00 [INF] The file /js/site.js was not modified
+2023-08-08 07:18:49.756 +07:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2023-08-08 07:18:49.760 +07:00 [DBG] Handled. Status code: 304 File: /Sora.BankHubTest.styles.css
+2023-08-08 07:18:49.761 +07:00 [DBG] Handled. Status code: 304 File: /css/site.css
+2023-08-08 07:18:49.762 +07:00 [DBG] Handled. Status code: 304 File: /lib/bootstrap/dist/js/bootstrap.bundle.min.js
+2023-08-08 07:18:49.764 +07:00 [DBG] Handled. Status code: 304 File: /lib/bootstrap/dist/css/bootstrap.min.css
+2023-08-08 07:18:49.766 +07:00 [DBG] Handled. Status code: 304 File: /js/site.js
+2023-08-08 07:18:49.768 +07:00 [DBG] Handled. Status code: 304 File: /lib/jquery/dist/jquery.min.js
+2023-08-08 07:18:49.770 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7266/Sora.BankHubTest.styles.css?v=-PyfW1ziEiZI_G326YpRweTUVwo2LmN1wMuFOmlRU-o - - - 304 - text/css 61.5490ms
+2023-08-08 07:18:49.771 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7266/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - - - 304 - text/css 62.8059ms
+2023-08-08 07:18:49.773 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7266/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 304 - application/javascript 64.0250ms
+2023-08-08 07:18:49.775 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7266/lib/bootstrap/dist/css/bootstrap.min.css - - - 304 - text/css 66.9211ms
+2023-08-08 07:18:49.778 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7266/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 304 - application/javascript 67.4954ms
+2023-08-08 07:18:49.780 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7266/lib/jquery/dist/jquery.min.js - - - 304 - application/javascript 71.5454ms
+2023-08-08 07:19:24.804 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7266/order - -
+2023-08-08 07:19:24.806 +07:00 [DBG] The host 'localhost' is excluded. Skipping HSTS header.
+2023-08-08 07:19:24.808 +07:00 [DBG] The request path /order does not match a supported file type
+2023-08-08 07:19:24.811 +07:00 [DBG] 1 candidate(s) found for the request path '/order'
+2023-08-08 07:19:24.813 +07:00 [DBG] Endpoint 'Sora.BankHubTest.Controllers.OrderController.FormCreateOrder (Sora.BankHubTest)' with route pattern 'order' is valid for the request path '/order'
+2023-08-08 07:19:24.816 +07:00 [DBG] Request matched endpoint 'Sora.BankHubTest.Controllers.OrderController.FormCreateOrder (Sora.BankHubTest)'
+2023-08-08 07:19:24.818 +07:00 [INF] Executing endpoint 'Sora.BankHubTest.Controllers.OrderController.FormCreateOrder (Sora.BankHubTest)'
+2023-08-08 07:19:24.834 +07:00 [INF] Route matched with {action = "FormCreateOrder", controller = "Order", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FormCreateOrder() on controller Sora.BankHubTest.Controllers.OrderController (Sora.BankHubTest).
+2023-08-08 07:19:24.837 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.AntiForgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter"]
+2023-08-08 07:19:24.844 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-08-08 07:19:24.846 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Volo.Abp.AspNetCore.Mvc.GlobalFeatures.GlobalFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Auditing.AbpAuditActionFilter","Volo.Abp.AspNetCore.Mvc.Response.AbpNoContentActionFilter","Volo.Abp.AspNetCore.Mvc.Features.AbpFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter","Volo.Abp.AspNetCore.Mvc.Uow.AbpUowActionFilter"]
+2023-08-08 07:19:24.852 +07:00 [DBG] Execution plan of exception filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter"]
+2023-08-08 07:19:24.855 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-08-08 07:19:24.859 +07:00 [DBG] Executing controller factory for controller Sora.BankHubTest.Controllers.OrderController (Sora.BankHubTest)
+2023-08-08 07:19:24.983 +07:00 [DBG] Executed controller factory for controller Sora.BankHubTest.Controllers.OrderController (Sora.BankHubTest)
+2023-08-08 07:19:25.892 +07:00 [DBG] View lookup cache miss for view 'Create' in controller 'Order'.
+2023-08-08 07:19:25.897 +07:00 [INF] Executing ViewResult, running view Create.
+2023-08-08 07:19:25.898 +07:00 [DBG] The view path '/Views/Order/Create.cshtml' was found in 6.1336ms.
+2023-08-08 07:19:25.910 +07:00 [DBG] Found the endpoints ["Sora.BankHubTest.Controllers.OrderController.CreateOrder (Sora.BankHubTest)","Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[CreateOrder],controller=[Order])
+2023-08-08 07:19:25.913 +07:00 [DBG] Successfully processed template order for Sora.BankHubTest.Controllers.OrderController.CreateOrder (Sora.BankHubTest) resulting in /order and 
+2023-08-08 07:19:25.916 +07:00 [DBG] Link generation succeeded for endpoints ["Sora.BankHubTest.Controllers.OrderController.CreateOrder (Sora.BankHubTest)","Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] with result /order
+2023-08-08 07:19:25.935 +07:00 [DBG] A new antiforgery cookie token was created.
+2023-08-08 07:19:25.944 +07:00 [DBG] ResourceManagerStringLocalizer searched for 'Số tiền' in 'Sora.BankHubTest.Dtos.CreateOrderDto' with culture 'en-US'.
+2023-08-08 07:19:25.969 +07:00 [DBG] ResourceManagerStringLocalizer searched for 'Số tiền' in 'Sora.BankHubTest.Dtos.CreateOrderDto' with culture 'en-US'.
+2023-08-08 07:19:25.972 +07:00 [DBG] ResourceManagerStringLocalizer searched for 'Số tiền không được để trống' in 'Sora.BankHubTest.Dtos.CreateOrderDto' with culture 'en-US'.
+2023-08-08 07:19:25.980 +07:00 [DBG] ResourceManagerStringLocalizer searched for 'Số tài khoản' in 'Sora.BankHubTest.Dtos.CreateOrderDto' with culture 'en-US'.
+2023-08-08 07:19:25.988 +07:00 [DBG] ResourceManagerStringLocalizer searched for 'Số tài khoản' in 'Sora.BankHubTest.Dtos.CreateOrderDto' with culture 'en-US'.
+2023-08-08 07:19:25.990 +07:00 [DBG] ResourceManagerStringLocalizer searched for 'Số tài khoản không được để trống' in 'Sora.BankHubTest.Dtos.CreateOrderDto' with culture 'en-US'.
+2023-08-08 07:19:25.995 +07:00 [DBG] View lookup cache miss for view '_Layout' in controller 'Order'.
+2023-08-08 07:19:25.999 +07:00 [DBG] Found the endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2023-08-08 07:19:26.003 +07:00 [DBG] Failed to process the template {area}/{controller=Home}/{action=Index}/{id?} for Route: {area}/{controller=Home}/{action=Index}/{id?}. A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "FormCreateOrder", "controller": "Order" } and { "action": "Index", "area": "", "controller": "Home" } with default values { "action": "Index", "controller": "Home" }
+2023-08-08 07:19:26.006 +07:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2023-08-08 07:19:26.008 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2023-08-08 07:19:26.012 +07:00 [DBG] Found the endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2023-08-08 07:19:26.015 +07:00 [DBG] Failed to process the template {area}/{controller=Home}/{action=Index}/{id?} for Route: {area}/{controller=Home}/{action=Index}/{id?}. A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "FormCreateOrder", "controller": "Order" } and { "action": "Index", "area": "", "controller": "Home" } with default values { "action": "Index", "controller": "Home" }
+2023-08-08 07:19:26.018 +07:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2023-08-08 07:19:26.022 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2023-08-08 07:19:26.026 +07:00 [DBG] Found the endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2023-08-08 07:19:26.029 +07:00 [DBG] Failed to process the template {area}/{controller=Home}/{action=Index}/{id?} for Route: {area}/{controller=Home}/{action=Index}/{id?}. A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "FormCreateOrder", "controller": "Order" } and { "action": "Privacy", "area": "", "controller": "Home" } with default values { "action": "Index", "controller": "Home" }
+2023-08-08 07:19:26.032 +07:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2023-08-08 07:19:26.034 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2023-08-08 07:19:26.038 +07:00 [DBG] Found the endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2023-08-08 07:19:26.041 +07:00 [DBG] Failed to process the template {area}/{controller=Home}/{action=Index}/{id?} for Route: {area}/{controller=Home}/{action=Index}/{id?}. A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "FormCreateOrder", "controller": "Order" } and { "action": "Privacy", "area": "", "controller": "Home" } with default values { "action": "Index", "controller": "Home" }
+2023-08-08 07:19:26.044 +07:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2023-08-08 07:19:26.046 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2023-08-08 07:19:26.055 +07:00 [DBG] View lookup cache miss for view '_ValidationScriptsPartial' in controller 'Order'.
+2023-08-08 07:19:26.148 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-08-08 07:19:26.157 +07:00 [INF] Executed ViewResult - view Create executed in 265.358ms.
+2023-08-08 07:19:26.167 +07:00 [INF] Executed action Sora.BankHubTest.Controllers.OrderController.FormCreateOrder (Sora.BankHubTest) in 1308.6045ms
+2023-08-08 07:19:26.170 +07:00 [INF] Executed endpoint 'Sora.BankHubTest.Controllers.OrderController.FormCreateOrder (Sora.BankHubTest)'
+2023-08-08 07:19:26.175 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-08-08 07:19:26.177 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7266/order - - - 200 - text/html;+charset=utf-8 1373.2340ms
+2023-08-08 07:19:26.192 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7266/_framework/aspnetcore-browser-refresh.js - -
+2023-08-08 07:19:26.192 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7266/lib/jquery-validation/dist/jquery.validate.min.js?v=F6h55Qw6sweK-t7SiOJX-2bpSAa3b_fnlrVCJvmEj1A - -
+2023-08-08 07:19:26.192 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7266/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js?v=YJa7W8EiQdQpkk93iGEjjnLSUWRpRJbSfzfURh1kxz4 - -
+2023-08-08 07:19:26.195 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7266/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 3.1360ms
+2023-08-08 07:19:26.195 +07:00 [DBG] The host 'localhost' is excluded. Skipping HSTS header.
+2023-08-08 07:19:26.197 +07:00 [DBG] The host 'localhost' is excluded. Skipping HSTS header.
+2023-08-08 07:19:26.200 +07:00 [INF] The file /lib/jquery-validation/dist/jquery.validate.min.js was not modified
+2023-08-08 07:19:26.201 +07:00 [INF] The file /lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js was not modified
+2023-08-08 07:19:26.202 +07:00 [DBG] Handled. Status code: 304 File: /lib/jquery-validation/dist/jquery.validate.min.js
+2023-08-08 07:19:26.204 +07:00 [DBG] Handled. Status code: 304 File: /lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js
+2023-08-08 07:19:26.206 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7266/lib/jquery-validation/dist/jquery.validate.min.js?v=F6h55Qw6sweK-t7SiOJX-2bpSAa3b_fnlrVCJvmEj1A - - - 304 - application/javascript 13.7201ms
+2023-08-08 07:19:26.208 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7266/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js?v=YJa7W8EiQdQpkk93iGEjjnLSUWRpRJbSfzfURh1kxz4 - - - 304 - application/javascript 15.5027ms
+2023-08-08 07:19:27.832 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7266/order application/x-www-form-urlencoded 251
+2023-08-08 07:19:27.835 +07:00 [DBG] The host 'localhost' is excluded. Skipping HSTS header.
+2023-08-08 07:19:27.837 +07:00 [DBG] POST requests are not supported
+2023-08-08 07:19:27.840 +07:00 [DBG] 1 candidate(s) found for the request path '/order'
+2023-08-08 07:19:27.842 +07:00 [DBG] Endpoint 'Sora.BankHubTest.Controllers.OrderController.CreateOrder (Sora.BankHubTest)' with route pattern 'order' is valid for the request path '/order'
+2023-08-08 07:19:27.845 +07:00 [DBG] Request matched endpoint 'Sora.BankHubTest.Controllers.OrderController.CreateOrder (Sora.BankHubTest)'
+2023-08-08 07:19:27.847 +07:00 [INF] Executing endpoint 'Sora.BankHubTest.Controllers.OrderController.CreateOrder (Sora.BankHubTest)'
+2023-08-08 07:19:27.864 +07:00 [INF] Route matched with {action = "CreateOrder", controller = "Order", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(Sora.BankHubTest.Dtos.CreateOrderDto) on controller Sora.BankHubTest.Controllers.OrderController (Sora.BankHubTest).
+2023-08-08 07:19:27.868 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.AntiForgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter"]
+2023-08-08 07:19:27.871 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-08-08 07:19:27.874 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Volo.Abp.AspNetCore.Mvc.GlobalFeatures.GlobalFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Auditing.AbpAuditActionFilter","Volo.Abp.AspNetCore.Mvc.Response.AbpNoContentActionFilter","Volo.Abp.AspNetCore.Mvc.Features.AbpFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter","Volo.Abp.AspNetCore.Mvc.Uow.AbpUowActionFilter"]
+2023-08-08 07:19:27.880 +07:00 [DBG] Execution plan of exception filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter"]
+2023-08-08 07:19:27.882 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-08-08 07:19:27.890 +07:00 [DBG] Executing controller factory for controller Sora.BankHubTest.Controllers.OrderController (Sora.BankHubTest)
+2023-08-08 07:19:27.894 +07:00 [DBG] Executed controller factory for controller Sora.BankHubTest.Controllers.OrderController (Sora.BankHubTest)
+2023-08-08 07:19:27.903 +07:00 [DBG] Connection id "0HMSNKK4OHG8I", Request id "0HMSNKK4OHG8I:00000019": started reading request body.
+2023-08-08 07:19:27.905 +07:00 [DBG] Connection id "0HMSNKK4OHG8I", Request id "0HMSNKK4OHG8I:00000019": done reading request body.
+2023-08-08 07:19:27.913 +07:00 [DBG] Attempting to bind parameter 'model' of type 'Sora.BankHubTest.Dtos.CreateOrderDto' ...
+2023-08-08 07:19:27.920 +07:00 [DBG] Attempting to bind parameter 'model' of type 'Sora.BankHubTest.Dtos.CreateOrderDto' using the name '' in request data ...
+2023-08-08 07:19:27.927 +07:00 [DBG] Attempting to bind property 'Sora.BankHubTest.Dtos.CreateOrderDto.OrderAmount' of type 'System.Int64' using the name 'OrderAmount' in request data ...
+2023-08-08 07:19:27.930 +07:00 [DBG] Done attempting to bind property 'Sora.BankHubTest.Dtos.CreateOrderDto.OrderAmount' of type 'System.Int64'.
+2023-08-08 07:19:27.937 +07:00 [DBG] Attempting to bind property 'Sora.BankHubTest.Dtos.CreateOrderDto.BankAccountId' of type 'System.Guid' using the name 'BankAccountId' in request data ...
+2023-08-08 07:19:27.940 +07:00 [DBG] Done attempting to bind property 'Sora.BankHubTest.Dtos.CreateOrderDto.BankAccountId' of type 'System.Guid'.
+2023-08-08 07:19:27.944 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'Sora.BankHubTest.Dtos.CreateOrderDto'.
+2023-08-08 07:19:27.945 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'Sora.BankHubTest.Dtos.CreateOrderDto'.
+2023-08-08 07:19:27.948 +07:00 [DBG] Attempting to validate the bound parameter 'model' of type 'Sora.BankHubTest.Dtos.CreateOrderDto' ...
+2023-08-08 07:19:27.957 +07:00 [DBG] ResourceManagerStringLocalizer searched for 'Số tiền' in 'Sora.BankHubTest.Dtos.CreateOrderDto' with culture 'en-US'.
+2023-08-08 07:19:27.960 +07:00 [DBG] ResourceManagerStringLocalizer searched for 'Số tài khoản' in 'Sora.BankHubTest.Dtos.CreateOrderDto' with culture 'en-US'.
+2023-08-08 07:19:27.964 +07:00 [DBG] ResourceManagerStringLocalizer searched for 'DisplayName:model' in 'Sora.BankHubTest.Dtos.CreateOrderDto' with culture 'en-US'.
+2023-08-08 07:19:27.968 +07:00 [DBG] ResourceManagerStringLocalizer searched for 'model' in 'Sora.BankHubTest.Dtos.CreateOrderDto' with culture 'en-US'.
+2023-08-08 07:19:27.972 +07:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'Sora.BankHubTest.Dtos.CreateOrderDto'.
+2023-08-08 07:19:27.991 +07:00 [WRN] Current database does not support transactions. Your database may remain in an inconsistent state in an error case.
+2023-08-08 07:19:28.474 +07:00 [INF] Start processing HTTP request POST https://testdcauthapi.jetpay.vn/connect/token
+2023-08-08 07:19:28.477 +07:00 [INF] Sending HTTP request POST https://testdcauthapi.jetpay.vn/connect/token
+2023-08-08 07:19:29.275 +07:00 [INF] Received HTTP response headers after 792.2691ms - 200
+2023-08-08 07:19:29.278 +07:00 [INF] End processing HTTP request after 805.7496ms - 200
+2023-08-08 07:19:29.436 +07:00 [INF] Start processing HTTP request POST https://testdcbankhubbusinessapi.jetpay.vn/orgs/transactions
+2023-08-08 07:19:29.438 +07:00 [INF] Sending HTTP request POST https://testdcbankhubbusinessapi.jetpay.vn/orgs/transactions
+2023-08-08 07:19:33.159 +07:00 [INF] Received HTTP response headers after 3719.3668ms - 200
+2023-08-08 07:19:33.161 +07:00 [INF] End processing HTTP request after 3725.3688ms - 200
+2023-08-08 07:19:33.251 +07:00 [DBG] Found the endpoints ["Sora.BankHubTest.Controllers.OrderController.OrderPaymentInfo (Sora.BankHubTest)","Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] for address (OrderId=[4],action=[OrderPaymentInfo],controller=[Order])
+2023-08-08 07:19:33.255 +07:00 [DBG] Successfully processed template order/{orderId}/payment for Sora.BankHubTest.Controllers.OrderController.OrderPaymentInfo (Sora.BankHubTest) resulting in /order/4/payment and 
+2023-08-08 07:19:33.257 +07:00 [DBG] Link generation succeeded for endpoints ["Sora.BankHubTest.Controllers.OrderController.OrderPaymentInfo (Sora.BankHubTest)","Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] with result /order/4/payment
+2023-08-08 07:19:33.261 +07:00 [INF] Executing RedirectResult, redirecting to /order/4/payment.
+2023-08-08 07:19:33.263 +07:00 [INF] Executed action Sora.BankHubTest.Controllers.OrderController.CreateOrder (Sora.BankHubTest) in 5377.8996ms
+2023-08-08 07:19:33.265 +07:00 [INF] Executed endpoint 'Sora.BankHubTest.Controllers.OrderController.CreateOrder (Sora.BankHubTest)'
+2023-08-08 07:19:33.267 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7266/order application/x-www-form-urlencoded 251 - 302 0 - 5434.2751ms
+2023-08-08 07:19:33.273 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7266/order/4/payment - -
+2023-08-08 07:19:33.275 +07:00 [DBG] The host 'localhost' is excluded. Skipping HSTS header.
+2023-08-08 07:19:33.277 +07:00 [DBG] The request path /order/4/payment does not match a supported file type
+2023-08-08 07:19:33.278 +07:00 [DBG] 1 candidate(s) found for the request path '/order/4/payment'
+2023-08-08 07:19:33.280 +07:00 [DBG] Endpoint 'Sora.BankHubTest.Controllers.OrderController.OrderPaymentInfo (Sora.BankHubTest)' with route pattern 'order/{orderId}/payment' is valid for the request path '/order/4/payment'
+2023-08-08 07:19:33.283 +07:00 [DBG] Request matched endpoint 'Sora.BankHubTest.Controllers.OrderController.OrderPaymentInfo (Sora.BankHubTest)'
+2023-08-08 07:19:33.285 +07:00 [INF] Executing endpoint 'Sora.BankHubTest.Controllers.OrderController.OrderPaymentInfo (Sora.BankHubTest)'
+2023-08-08 07:19:33.291 +07:00 [INF] Route matched with {action = "OrderPaymentInfo", controller = "Order", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] OrderPaymentInfo(Int32) on controller Sora.BankHubTest.Controllers.OrderController (Sora.BankHubTest).
+2023-08-08 07:19:33.294 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.AntiForgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter"]
+2023-08-08 07:19:33.297 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-08-08 07:19:33.299 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Volo.Abp.AspNetCore.Mvc.GlobalFeatures.GlobalFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Auditing.AbpAuditActionFilter","Volo.Abp.AspNetCore.Mvc.Response.AbpNoContentActionFilter","Volo.Abp.AspNetCore.Mvc.Features.AbpFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter","Volo.Abp.AspNetCore.Mvc.Uow.AbpUowActionFilter"]
+2023-08-08 07:19:33.306 +07:00 [DBG] Execution plan of exception filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter"]
+2023-08-08 07:19:33.308 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-08-08 07:19:33.310 +07:00 [DBG] Executing controller factory for controller Sora.BankHubTest.Controllers.OrderController (Sora.BankHubTest)
+2023-08-08 07:19:33.313 +07:00 [DBG] Executed controller factory for controller Sora.BankHubTest.Controllers.OrderController (Sora.BankHubTest)
+2023-08-08 07:19:33.316 +07:00 [DBG] Attempting to bind parameter 'orderId' of type 'System.Int32' ...
+2023-08-08 07:19:33.321 +07:00 [DBG] Attempting to bind parameter 'orderId' of type 'System.Int32' using the name 'orderId' in request data ...
+2023-08-08 07:19:33.324 +07:00 [DBG] Done attempting to bind parameter 'orderId' of type 'System.Int32'.
+2023-08-08 07:19:33.325 +07:00 [DBG] Done attempting to bind parameter 'orderId' of type 'System.Int32'.
+2023-08-08 07:19:33.327 +07:00 [DBG] Attempting to validate the bound parameter 'orderId' of type 'System.Int32' ...
+2023-08-08 07:19:33.329 +07:00 [DBG] Done attempting to validate the bound parameter 'orderId' of type 'System.Int32'.
+2023-08-08 07:19:33.384 +07:00 [DBG] View lookup cache miss for view 'OrderPaymentInfo' in controller 'Order'.
+2023-08-08 07:19:33.389 +07:00 [INF] Executing ViewResult, running view OrderPaymentInfo.
+2023-08-08 07:19:33.391 +07:00 [DBG] The view path '/Views/Order/OrderPaymentInfo.cshtml' was found in 6.5037ms.
+2023-08-08 07:19:33.398 +07:00 [DBG] View lookup cache hit for view '_Layout' in controller 'Order'.
+2023-08-08 07:19:33.401 +07:00 [DBG] Found the endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2023-08-08 07:19:33.404 +07:00 [DBG] Failed to process the template {area}/{controller=Home}/{action=Index}/{id?} for Route: {area}/{controller=Home}/{action=Index}/{id?}. A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "OrderPaymentInfo", "controller": "Order", "orderId": "4" } and { "action": "Index", "area": "", "controller": "Home" } with default values { "action": "Index", "controller": "Home" }
+2023-08-08 07:19:33.408 +07:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2023-08-08 07:19:33.410 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2023-08-08 07:19:33.413 +07:00 [DBG] Found the endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2023-08-08 07:19:33.416 +07:00 [DBG] Failed to process the template {area}/{controller=Home}/{action=Index}/{id?} for Route: {area}/{controller=Home}/{action=Index}/{id?}. A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "OrderPaymentInfo", "controller": "Order", "orderId": "4" } and { "action": "Index", "area": "", "controller": "Home" } with default values { "action": "Index", "controller": "Home" }
+2023-08-08 07:19:33.420 +07:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2023-08-08 07:19:33.422 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2023-08-08 07:19:33.425 +07:00 [DBG] Found the endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2023-08-08 07:19:33.428 +07:00 [DBG] Failed to process the template {area}/{controller=Home}/{action=Index}/{id?} for Route: {area}/{controller=Home}/{action=Index}/{id?}. A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "OrderPaymentInfo", "controller": "Order", "orderId": "4" } and { "action": "Privacy", "area": "", "controller": "Home" } with default values { "action": "Index", "controller": "Home" }
+2023-08-08 07:19:33.431 +07:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2023-08-08 07:19:33.433 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2023-08-08 07:19:33.437 +07:00 [DBG] Found the endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2023-08-08 07:19:33.440 +07:00 [DBG] Failed to process the template {area}/{controller=Home}/{action=Index}/{id?} for Route: {area}/{controller=Home}/{action=Index}/{id?}. A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "OrderPaymentInfo", "controller": "Order", "orderId": "4" } and { "action": "Privacy", "area": "", "controller": "Home" } with default values { "action": "Index", "controller": "Home" }
+2023-08-08 07:19:33.444 +07:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2023-08-08 07:19:33.446 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2023-08-08 07:19:33.449 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-08-08 07:19:33.451 +07:00 [INF] Executed ViewResult - view OrderPaymentInfo executed in 66.6656ms.
+2023-08-08 07:19:33.454 +07:00 [INF] Executed action Sora.BankHubTest.Controllers.OrderController.OrderPaymentInfo (Sora.BankHubTest) in 143.9509ms
+2023-08-08 07:19:33.456 +07:00 [INF] Executed endpoint 'Sora.BankHubTest.Controllers.OrderController.OrderPaymentInfo (Sora.BankHubTest)'
+2023-08-08 07:19:33.459 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-08-08 07:19:33.460 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7266/order/4/payment - - - 200 - text/html;+charset=utf-8 187.0100ms
+2023-08-08 07:19:33.479 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7266/_framework/aspnetcore-browser-refresh.js - -
+2023-08-08 07:19:33.482 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7266/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 2.7468ms
+2023-08-08 07:21:24.985 +07:00 [DBG] HttpMessageHandler expired after 120000ms for client 'IHttpService'
+2023-08-08 07:21:35.003 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-08-08 07:21:35.016 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 6.4002ms - processed: 0 items - remaining: 1 items
+2023-08-08 07:21:39.493 +07:00 [INF] Starting web application
+2023-08-08 07:21:40.664 +07:00 [INF] Loaded ABP modules:
+2023-08-08 07:21:40.669 +07:00 [INF] - Sora.BankHubTest.BankHubTestModule
+2023-08-08 07:21:40.670 +07:00 [INF]   - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2023-08-08 07:21:40.671 +07:00 [INF]     - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2023-08-08 07:21:40.673 +07:00 [INF]       - Volo.Abp.Auditing.AbpAuditingModule
+2023-08-08 07:21:40.674 +07:00 [INF]         - Volo.Abp.Data.AbpDataModule
+2023-08-08 07:21:40.675 +07:00 [INF]           - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-08-08 07:21:40.677 +07:00 [INF]             - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-08-08 07:21:40.678 +07:00 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-08-08 07:21:40.680 +07:00 [INF]           - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-08-08 07:21:40.681 +07:00 [INF]           - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-08-08 07:21:40.682 +07:00 [INF]         - Volo.Abp.Json.AbpJsonModule
+2023-08-08 07:21:40.684 +07:00 [INF]           - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-08-08 07:21:40.685 +07:00 [INF]             - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-08-08 07:21:40.686 +07:00 [INF]             - Volo.Abp.Timing.AbpTimingModule
+2023-08-08 07:21:40.687 +07:00 [INF]               - Volo.Abp.Localization.AbpLocalizationModule
+2023-08-08 07:21:40.688 +07:00 [INF]                 - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-08-08 07:21:40.690 +07:00 [INF]                 - Volo.Abp.Settings.AbpSettingsModule
+2023-08-08 07:21:40.691 +07:00 [INF]                   - Volo.Abp.Security.AbpSecurityModule
+2023-08-08 07:21:40.692 +07:00 [INF]                 - Volo.Abp.Threading.AbpThreadingModule
+2023-08-08 07:21:40.694 +07:00 [INF]         - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-08-08 07:21:40.696 +07:00 [INF]           - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2023-08-08 07:21:40.697 +07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-08-08 07:21:40.699 +07:00 [INF]       - Volo.Abp.Http.AbpHttpModule
+2023-08-08 07:21:40.701 +07:00 [INF]         - Volo.Abp.Http.AbpHttpAbstractionsModule
+2023-08-08 07:21:40.703 +07:00 [INF]         - Volo.Abp.Minify.AbpMinifyModule
+2023-08-08 07:21:40.704 +07:00 [INF]       - Volo.Abp.Authorization.AbpAuthorizationModule
+2023-08-08 07:21:40.706 +07:00 [INF]         - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2023-08-08 07:21:40.707 +07:00 [INF]       - Volo.Abp.Validation.AbpValidationModule
+2023-08-08 07:21:40.710 +07:00 [INF]       - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2023-08-08 07:21:40.711 +07:00 [INF]     - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2023-08-08 07:21:40.713 +07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2023-08-08 07:21:40.714 +07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationContractsModule
+2023-08-08 07:21:40.715 +07:00 [INF]     - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2023-08-08 07:21:40.717 +07:00 [INF]       - Volo.Abp.UI.AbpUiModule
+2023-08-08 07:21:40.718 +07:00 [INF]     - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2023-08-08 07:21:40.720 +07:00 [INF]     - Volo.Abp.Application.AbpDddApplicationModule
+2023-08-08 07:21:40.721 +07:00 [INF]       - Volo.Abp.Domain.AbpDddDomainModule
+2023-08-08 07:21:40.722 +07:00 [INF]         - Volo.Abp.EventBus.AbpEventBusModule
+2023-08-08 07:21:40.724 +07:00 [INF]           - Volo.Abp.Guids.AbpGuidsModule
+2023-08-08 07:21:40.725 +07:00 [INF]           - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2023-08-08 07:21:40.726 +07:00 [INF]           - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2023-08-08 07:21:40.727 +07:00 [INF]         - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-08-08 07:21:40.729 +07:00 [INF]         - Volo.Abp.Specifications.AbpSpecificationsModule
+2023-08-08 07:21:40.731 +07:00 [INF]         - Volo.Abp.Caching.AbpCachingModule
+2023-08-08 07:21:40.732 +07:00 [INF]           - Volo.Abp.Serialization.AbpSerializationModule
+2023-08-08 07:21:40.734 +07:00 [INF]         - Volo.Abp.Domain.AbpDddDomainSharedModule
+2023-08-08 07:21:40.735 +07:00 [INF]       - Volo.Abp.Features.AbpFeaturesModule
+2023-08-08 07:21:40.736 +07:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2023-08-08 07:21:40.737 +07:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-08-08 07:21:40.738 +07:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-08-08 07:21:40.740 +07:00 [INF]   - Volo.Abp.MongoDB.AbpMongoDbModule
+2023-08-08 07:21:41.209 +07:00 [DBG] Registered model binder providers, in the following order: ["Volo.Abp.AspNetCore.Mvc.ModelBinding.AbpDateTimeModelBinderProvider","Volo.Abp.AspNetCore.Mvc.ModelBinding.AbpExtraPropertiesDictionaryModelBinderProvider","Volo.Abp.AspNetCore.Mvc.ContentFormatters.AbpRemoteStreamContentModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-08-08 07:21:41.264 +07:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-08 07:21:41.415 +07:00 [INF] Initialized all ABP modules.
+2023-08-08 07:21:41.418 +07:00 [DBG] Hosting starting
+2023-08-08 07:21:41.434 +07:00 [DBG] Reading data from file 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys\key-845e5e27-245c-4e08-92b6-05cd54f77c06.xml'.
+2023-08-08 07:21:41.443 +07:00 [DBG] Found key {845e5e27-245c-4e08-92b6-05cd54f77c06}.
+2023-08-08 07:21:41.463 +07:00 [DBG] Considering key {845e5e27-245c-4e08-92b6-05cd54f77c06} with expiration date 2023-08-20 14:39:56Z as default key.
+2023-08-08 07:21:41.470 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-08-08 07:21:41.476 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2023-08-08 07:21:41.480 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-08-08 07:21:41.487 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-08-08 07:21:41.492 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-08-08 07:21:41.497 +07:00 [DBG] Using key {845e5e27-245c-4e08-92b6-05cd54f77c06} as the default key.
+2023-08-08 07:21:41.501 +07:00 [DBG] Key ring with default key {845e5e27-245c-4e08-92b6-05cd54f77c06} was loaded during application startup.
+2023-08-08 07:21:41.669 +07:00 [INF] Now listening on: https://localhost:7266
+2023-08-08 07:21:41.671 +07:00 [INF] Now listening on: http://localhost:5215
+2023-08-08 07:21:41.673 +07:00 [DBG] Loaded hosting startup assembly Sora.BankHubTest
+2023-08-08 07:21:41.675 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-08-08 07:21:41.677 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-08-08 07:21:41.679 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-08 07:21:41.681 +07:00 [INF] Hosting environment: Development
+2023-08-08 07:21:41.683 +07:00 [INF] Content root path: C:\DBHuan\MyProject\web\Sora.BankHubTest\Sora.BankHubTest\bin\Debug\net7.0
+2023-08-08 07:21:41.685 +07:00 [DBG] Hosting started
+2023-08-08 07:21:41.862 +07:00 [DBG] Connection id "0HMSNKLOAJ2CD" accepted.
+2023-08-08 07:21:41.862 +07:00 [DBG] Connection id "0HMSNKLOAJ2CE" received FIN.
+2023-08-08 07:21:41.869 +07:00 [DBG] Connection id "0HMSNKLOAJ2CF" accepted.
+2023-08-08 07:21:41.874 +07:00 [DBG] Connection id "0HMSNKLOAJ2CE" started.
+2023-08-08 07:21:41.881 +07:00 [DBG] Connection id "0HMSNKLOAJ2CF" started.
+2023-08-08 07:21:41.904 +07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-08-08 07:21:41.925 +07:00 [DBG] Connection id "0HMSNKLOAJ2CE" stopped.
+2023-08-08 07:21:41.929 +07:00 [DBG] Connection id "0HMSNKLOAJ2CE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-08 07:21:41.950 +07:00 [DBG] Connection 0HMSNKLOAJ2CF established using the following protocol: "Tls13"
+2023-08-08 07:21:42.072 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7266/order/4/payment - -
+2023-08-08 07:21:42.090 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-08-08 07:21:42.098 +07:00 [DBG] The host 'localhost' is excluded. Skipping HSTS header.
+2023-08-08 07:21:42.102 +07:00 [DBG] The request path /order/4/payment does not match a supported file type
+2023-08-08 07:21:42.145 +07:00 [DBG] 1 candidate(s) found for the request path '/order/4/payment'
+2023-08-08 07:21:42.150 +07:00 [DBG] Endpoint 'Sora.BankHubTest.Controllers.OrderController.OrderPaymentInfo (Sora.BankHubTest)' with route pattern 'order/{orderId}/payment' is valid for the request path '/order/4/payment'
+2023-08-08 07:21:42.153 +07:00 [DBG] Request matched endpoint 'Sora.BankHubTest.Controllers.OrderController.OrderPaymentInfo (Sora.BankHubTest)'
+2023-08-08 07:21:42.155 +07:00 [INF] Executing endpoint 'Sora.BankHubTest.Controllers.OrderController.OrderPaymentInfo (Sora.BankHubTest)'
+2023-08-08 07:21:42.200 +07:00 [INF] Route matched with {action = "OrderPaymentInfo", controller = "Order", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] OrderPaymentInfo(Int32) on controller Sora.BankHubTest.Controllers.OrderController (Sora.BankHubTest).
+2023-08-08 07:21:42.204 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.AntiForgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter"]
+2023-08-08 07:21:42.207 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-08-08 07:21:42.210 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Volo.Abp.AspNetCore.Mvc.GlobalFeatures.GlobalFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Auditing.AbpAuditActionFilter","Volo.Abp.AspNetCore.Mvc.Response.AbpNoContentActionFilter","Volo.Abp.AspNetCore.Mvc.Features.AbpFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter","Volo.Abp.AspNetCore.Mvc.Uow.AbpUowActionFilter"]
+2023-08-08 07:21:42.216 +07:00 [DBG] Execution plan of exception filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter"]
+2023-08-08 07:21:42.218 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-08-08 07:21:42.226 +07:00 [DBG] Executing controller factory for controller Sora.BankHubTest.Controllers.OrderController (Sora.BankHubTest)
+2023-08-08 07:21:42.344 +07:00 [DBG] Executed controller factory for controller Sora.BankHubTest.Controllers.OrderController (Sora.BankHubTest)
+2023-08-08 07:21:42.352 +07:00 [DBG] Attempting to bind parameter 'orderId' of type 'System.Int32' ...
+2023-08-08 07:21:42.356 +07:00 [DBG] Attempting to bind parameter 'orderId' of type 'System.Int32' using the name 'orderId' in request data ...
+2023-08-08 07:21:42.359 +07:00 [DBG] Done attempting to bind parameter 'orderId' of type 'System.Int32'.
+2023-08-08 07:21:42.360 +07:00 [DBG] Done attempting to bind parameter 'orderId' of type 'System.Int32'.
+2023-08-08 07:21:42.362 +07:00 [DBG] Attempting to validate the bound parameter 'orderId' of type 'System.Int32' ...
+2023-08-08 07:21:42.368 +07:00 [DBG] Done attempting to validate the bound parameter 'orderId' of type 'System.Int32'.
+2023-08-08 07:21:43.198 +07:00 [DBG] View lookup cache miss for view 'OrderPaymentInfo' in controller 'Order'.
+2023-08-08 07:21:43.204 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2023-08-08 07:21:43.206 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2023-08-08 07:21:43.207 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Order/Create.cshtml'.
+2023-08-08 07:21:43.209 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Order/List.cshtml'.
+2023-08-08 07:21:43.210 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Order/OrderPaymentInfo.cshtml'.
+2023-08-08 07:21:43.212 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2023-08-08 07:21:43.214 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2023-08-08 07:21:43.216 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2023-08-08 07:21:43.218 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2023-08-08 07:21:43.219 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2023-08-08 07:21:43.238 +07:00 [INF] Executing ViewResult, running view OrderPaymentInfo.
+2023-08-08 07:21:43.244 +07:00 [DBG] The view path '/Views/Order/OrderPaymentInfo.cshtml' was found in 43.8482ms.
+2023-08-08 07:21:43.275 +07:00 [DBG] View lookup cache miss for view '_Layout' in controller 'Order'.
+2023-08-08 07:21:43.354 +07:00 [DBG] Found the endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2023-08-08 07:21:43.369 +07:00 [DBG] Failed to process the template {area}/{controller=Home}/{action=Index}/{id?} for Route: {area}/{controller=Home}/{action=Index}/{id?}. A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "OrderPaymentInfo", "controller": "Order", "orderId": "4" } and { "action": "Index", "area": "", "controller": "Home" } with default values { "action": "Index", "controller": "Home" }
+2023-08-08 07:21:43.375 +07:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2023-08-08 07:21:43.378 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2023-08-08 07:21:43.383 +07:00 [DBG] Found the endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2023-08-08 07:21:43.388 +07:00 [DBG] Failed to process the template {area}/{controller=Home}/{action=Index}/{id?} for Route: {area}/{controller=Home}/{action=Index}/{id?}. A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "OrderPaymentInfo", "controller": "Order", "orderId": "4" } and { "action": "Index", "area": "", "controller": "Home" } with default values { "action": "Index", "controller": "Home" }
+2023-08-08 07:21:43.391 +07:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2023-08-08 07:21:43.393 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2023-08-08 07:21:43.396 +07:00 [DBG] Found the endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2023-08-08 07:21:43.399 +07:00 [DBG] Failed to process the template {area}/{controller=Home}/{action=Index}/{id?} for Route: {area}/{controller=Home}/{action=Index}/{id?}. A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "OrderPaymentInfo", "controller": "Order", "orderId": "4" } and { "action": "Privacy", "area": "", "controller": "Home" } with default values { "action": "Index", "controller": "Home" }
+2023-08-08 07:21:43.403 +07:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2023-08-08 07:21:43.405 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2023-08-08 07:21:43.408 +07:00 [DBG] Found the endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2023-08-08 07:21:43.410 +07:00 [DBG] Failed to process the template {area}/{controller=Home}/{action=Index}/{id?} for Route: {area}/{controller=Home}/{action=Index}/{id?}. A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "OrderPaymentInfo", "controller": "Order", "orderId": "4" } and { "action": "Privacy", "area": "", "controller": "Home" } with default values { "action": "Index", "controller": "Home" }
+2023-08-08 07:21:43.414 +07:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2023-08-08 07:21:43.416 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2023-08-08 07:21:43.432 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-08-08 07:21:43.437 +07:00 [INF] Executed ViewResult - view OrderPaymentInfo executed in 241.5793ms.
+2023-08-08 07:21:43.439 +07:00 [INF] Executed action Sora.BankHubTest.Controllers.OrderController.OrderPaymentInfo (Sora.BankHubTest) in 1218.6859ms
+2023-08-08 07:21:43.442 +07:00 [INF] Executed endpoint 'Sora.BankHubTest.Controllers.OrderController.OrderPaymentInfo (Sora.BankHubTest)'
+2023-08-08 07:21:43.444 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-08-08 07:21:43.456 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7266/order/4/payment - - - 200 - text/html;+charset=utf-8 1386.4280ms
+2023-08-08 07:21:43.470 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7266/_framework/aspnetcore-browser-refresh.js - -
+2023-08-08 07:21:43.484 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7266/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 14.0647ms
+2023-08-08 07:21:43.823 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7266/favicon.ico - -
+2023-08-08 07:21:43.825 +07:00 [DBG] The host 'localhost' is excluded. Skipping HSTS header.
+2023-08-08 07:21:43.844 +07:00 [INF] The file /favicon.ico was not modified
+2023-08-08 07:21:43.847 +07:00 [DBG] Handled. Status code: 304 File: /favicon.ico
+2023-08-08 07:21:43.849 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7266/favicon.ico - - - 304 - image/x-icon 26.2919ms
+2023-08-08 07:21:47.044 +07:00 [DBG] Connection id "0HMSNKLOAJ2CG" accepted.
+2023-08-08 07:21:47.045 +07:00 [DBG] Connection id "0HMSNKLOAJ2CG" received FIN.
+2023-08-08 07:21:47.046 +07:00 [DBG] Connection id "0HMSNKLOAJ2CG" started.
+2023-08-08 07:21:47.046 +07:00 [DBG] Connection id "0HMSNKLOAJ2CH" accepted.
+2023-08-08 07:21:47.049 +07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-08-08 07:21:47.050 +07:00 [DBG] Connection id "0HMSNKLOAJ2CH" started.
+2023-08-08 07:21:47.053 +07:00 [DBG] Connection id "0HMSNKLOAJ2CG" stopped.
+2023-08-08 07:21:47.056 +07:00 [DBG] Connection id "0HMSNKLOAJ2CG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-08 07:21:47.061 +07:00 [DBG] Connection 0HMSNKLOAJ2CH established using the following protocol: "Tls13"
+2023-08-08 07:21:47.075 +07:00 [INF] Request starting HTTP/1.1 POST https://localhost:7266/order/jp/callback application/json 417
+2023-08-08 07:21:47.076 +07:00 [DBG] The host 'localhost' is excluded. Skipping HSTS header.
+2023-08-08 07:21:47.078 +07:00 [DBG] POST requests are not supported
+2023-08-08 07:21:47.081 +07:00 [DBG] 1 candidate(s) found for the request path '/order/jp/callback'
+2023-08-08 07:21:47.083 +07:00 [DBG] Endpoint 'Sora.BankHubTest.Controllers.OrderController.OrderJPCallback (Sora.BankHubTest)' with route pattern 'order/jp/callback' is valid for the request path '/order/jp/callback'
+2023-08-08 07:21:47.086 +07:00 [DBG] Request matched endpoint 'Sora.BankHubTest.Controllers.OrderController.OrderJPCallback (Sora.BankHubTest)'
+2023-08-08 07:21:47.088 +07:00 [INF] Executing endpoint 'Sora.BankHubTest.Controllers.OrderController.OrderJPCallback (Sora.BankHubTest)'
+2023-08-08 07:21:47.096 +07:00 [INF] Route matched with {action = "OrderJPCallback", controller = "Order", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] OrderJPCallback(System.Object) on controller Sora.BankHubTest.Controllers.OrderController (Sora.BankHubTest).
+2023-08-08 07:21:47.099 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.AntiForgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter"]
+2023-08-08 07:21:47.101 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-08-08 07:21:47.104 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Volo.Abp.AspNetCore.Mvc.GlobalFeatures.GlobalFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Auditing.AbpAuditActionFilter","Volo.Abp.AspNetCore.Mvc.Response.AbpNoContentActionFilter","Volo.Abp.AspNetCore.Mvc.Features.AbpFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter","Volo.Abp.AspNetCore.Mvc.Uow.AbpUowActionFilter"]
+2023-08-08 07:21:47.109 +07:00 [DBG] Execution plan of exception filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter"]
+2023-08-08 07:21:47.111 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-08-08 07:21:47.119 +07:00 [DBG] Executing controller factory for controller Sora.BankHubTest.Controllers.OrderController (Sora.BankHubTest)
+2023-08-08 07:21:47.124 +07:00 [DBG] Executed controller factory for controller Sora.BankHubTest.Controllers.OrderController (Sora.BankHubTest)
+2023-08-08 07:21:47.127 +07:00 [DBG] Attempting to bind parameter 'reqBody' of type 'System.Object' ...
+2023-08-08 07:21:47.131 +07:00 [DBG] Attempting to bind parameter 'reqBody' of type 'System.Object' using the name '' in request data ...
+2023-08-08 07:21:47.135 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-08-08 07:21:47.161 +07:00 [DBG] Connection id "0HMSNKLOAJ2CH", Request id "0HMSNKLOAJ2CH:00000001": started reading request body.
+2023-08-08 07:21:47.165 +07:00 [DBG] Connection id "0HMSNKLOAJ2CH", Request id "0HMSNKLOAJ2CH:00000001": done reading request body.
+2023-08-08 07:21:47.171 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'System.Object'
+2023-08-08 07:21:47.173 +07:00 [DBG] Done attempting to bind parameter 'reqBody' of type 'System.Object'.
+2023-08-08 07:21:47.174 +07:00 [DBG] Done attempting to bind parameter 'reqBody' of type 'System.Object'.
+2023-08-08 07:21:47.175 +07:00 [DBG] Attempting to validate the bound parameter 'reqBody' of type 'System.Object' ...
+2023-08-08 07:21:47.186 +07:00 [DBG] Done attempting to validate the bound parameter 'reqBody' of type 'System.Object'.
+2023-08-08 07:21:47.455 +07:00 [DBG] OrderController-OrderJPCallback-Req: {"header":{"msgId":"20230710135000","signature":""},"data":{"records":[{"orderConfirmType":1,"orderId":"1","amount":1000,"description":"DH123","transId":"JP1688971897877","bankTransId":"1688971922410"}]}
+2023-08-08 07:21:47.487 +07:00 [DBG] OrderController-OrderJPCallback-Res: {"header":{"msgId":"20230710135000","responseMsgId":"JP20230808072147","signature":"CDA73603A696CC0D35BFA7B4D4845FD5"},"data":{"records":[{"transId":"JP1688971897877","error":3,"message":"Sai chữ ký","orderAmount":null}]}
+2023-08-08 07:21:47.493 +07:00 [DBG] List of registered output formatters, in the following order: ["Volo.Abp.AspNetCore.Mvc.ContentFormatters.RemoteStreamContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-08-08 07:21:47.500 +07:00 [DBG] No information found on request to perform content negotiation.
+2023-08-08 07:21:47.501 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-08-08 07:21:47.503 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-08-08 07:21:47.505 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-08-08 07:21:47.509 +07:00 [INF] Executing ObjectResult, writing value of type 'Sora.BankHubTest.Dtos.JpBankHubWebhookResDto'.
+2023-08-08 07:21:47.565 +07:00 [INF] Executed action Sora.BankHubTest.Controllers.OrderController.OrderJPCallback (Sora.BankHubTest) in 451.0029ms
+2023-08-08 07:21:47.567 +07:00 [INF] Executed endpoint 'Sora.BankHubTest.Controllers.OrderController.OrderJPCallback (Sora.BankHubTest)'
+2023-08-08 07:21:47.569 +07:00 [DBG] Connection id "0HMSNKLOAJ2CH" completed keep alive response.
+2023-08-08 07:21:47.571 +07:00 [INF] Request finished HTTP/1.1 POST https://localhost:7266/order/jp/callback application/json 417 - 200 - application/json;+charset=utf-8 495.9403ms
+2023-08-08 07:22:38.706 +07:00 [INF] Request starting HTTP/1.1 POST https://localhost:7266/order/jp/callback application/json 449
+2023-08-08 07:22:38.708 +07:00 [DBG] The host 'localhost' is excluded. Skipping HSTS header.
+2023-08-08 07:22:38.709 +07:00 [DBG] POST requests are not supported
+2023-08-08 07:22:38.711 +07:00 [DBG] 1 candidate(s) found for the request path '/order/jp/callback'
+2023-08-08 07:22:38.712 +07:00 [DBG] Endpoint 'Sora.BankHubTest.Controllers.OrderController.OrderJPCallback (Sora.BankHubTest)' with route pattern 'order/jp/callback' is valid for the request path '/order/jp/callback'
+2023-08-08 07:22:38.714 +07:00 [DBG] Request matched endpoint 'Sora.BankHubTest.Controllers.OrderController.OrderJPCallback (Sora.BankHubTest)'
+2023-08-08 07:22:38.716 +07:00 [INF] Executing endpoint 'Sora.BankHubTest.Controllers.OrderController.OrderJPCallback (Sora.BankHubTest)'
+2023-08-08 07:22:38.721 +07:00 [INF] Route matched with {action = "OrderJPCallback", controller = "Order", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] OrderJPCallback(System.Object) on controller Sora.BankHubTest.Controllers.OrderController (Sora.BankHubTest).
+2023-08-08 07:22:38.724 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.AntiForgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter"]
+2023-08-08 07:22:38.727 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-08-08 07:22:38.729 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Volo.Abp.AspNetCore.Mvc.GlobalFeatures.GlobalFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Auditing.AbpAuditActionFilter","Volo.Abp.AspNetCore.Mvc.Response.AbpNoContentActionFilter","Volo.Abp.AspNetCore.Mvc.Features.AbpFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter","Volo.Abp.AspNetCore.Mvc.Uow.AbpUowActionFilter"]
+2023-08-08 07:22:38.737 +07:00 [DBG] Execution plan of exception filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter"]
+2023-08-08 07:22:38.740 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-08-08 07:22:38.743 +07:00 [DBG] Executing controller factory for controller Sora.BankHubTest.Controllers.OrderController (Sora.BankHubTest)
+2023-08-08 07:22:38.746 +07:00 [DBG] Executed controller factory for controller Sora.BankHubTest.Controllers.OrderController (Sora.BankHubTest)
+2023-08-08 07:22:38.748 +07:00 [DBG] Attempting to bind parameter 'reqBody' of type 'System.Object' ...
+2023-08-08 07:22:38.751 +07:00 [DBG] Attempting to bind parameter 'reqBody' of type 'System.Object' using the name '' in request data ...
+2023-08-08 07:22:38.753 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-08-08 07:22:38.755 +07:00 [DBG] Connection id "0HMSNKLOAJ2CH", Request id "0HMSNKLOAJ2CH:00000002": started reading request body.
+2023-08-08 07:22:38.757 +07:00 [DBG] Connection id "0HMSNKLOAJ2CH", Request id "0HMSNKLOAJ2CH:00000002": done reading request body.
+2023-08-08 07:22:38.759 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'System.Object'
+2023-08-08 07:22:38.761 +07:00 [DBG] Done attempting to bind parameter 'reqBody' of type 'System.Object'.
+2023-08-08 07:22:38.763 +07:00 [DBG] Done attempting to bind parameter 'reqBody' of type 'System.Object'.
+2023-08-08 07:22:38.765 +07:00 [DBG] Attempting to validate the bound parameter 'reqBody' of type 'System.Object' ...
+2023-08-08 07:22:38.768 +07:00 [DBG] Done attempting to validate the bound parameter 'reqBody' of type 'System.Object'.
+2023-08-08 07:22:38.772 +07:00 [DBG] OrderController-OrderJPCallback-Req: {"header":{"msgId":"20230710135000","signature":"374638489fc7b8faae879eb724f31efc"},"data":{"records":[{"orderConfirmType":1,"orderId":"1","amount":1000,"description":"DH123","transId":"JP1688971897877","bankTransId":"1688971922410"}]}
+2023-08-08 07:22:38.787 +07:00 [WRN] Current database does not support transactions. Your database may remain in an inconsistent state in an error case.
+2023-08-08 07:22:38.833 +07:00 [DBG] OrderController-OrderJPCallback-Res: {"header":{"msgId":"20230710135000","responseMsgId":"JP20230808072238","signature":"AEFD6E69E6349FAB000214831D01FF17"},"data":{"records":[{"transId":"JP1688971897877","error":2,"message":"Số tiền thanh toán nhỏ hơn số tiền thực đơn hàng","orderAmount":null}]}
+2023-08-08 07:22:38.851 +07:00 [DBG] List of registered output formatters, in the following order: ["Volo.Abp.AspNetCore.Mvc.ContentFormatters.RemoteStreamContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-08-08 07:22:38.856 +07:00 [DBG] No information found on request to perform content negotiation.
+2023-08-08 07:22:38.859 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-08-08 07:22:38.860 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-08-08 07:22:38.862 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-08-08 07:22:38.864 +07:00 [INF] Executing ObjectResult, writing value of type 'Sora.BankHubTest.Dtos.JpBankHubWebhookResDto'.
+2023-08-08 07:22:38.869 +07:00 [INF] Executed action Sora.BankHubTest.Controllers.OrderController.OrderJPCallback (Sora.BankHubTest) in 127.1107ms
+2023-08-08 07:22:38.873 +07:00 [INF] Executed endpoint 'Sora.BankHubTest.Controllers.OrderController.OrderJPCallback (Sora.BankHubTest)'
+2023-08-08 07:22:38.878 +07:00 [DBG] Connection id "0HMSNKLOAJ2CH" completed keep alive response.
+2023-08-08 07:22:38.880 +07:00 [INF] Request finished HTTP/1.1 POST https://localhost:7266/order/jp/callback application/json 449 - 200 - application/json;+charset=utf-8 174.3679ms
+2023-08-08 07:22:46.576 +07:00 [INF] Request starting HTTP/1.1 POST https://localhost:7266/order/jp/callback application/json 450
+2023-08-08 07:22:46.580 +07:00 [DBG] The host 'localhost' is excluded. Skipping HSTS header.
+2023-08-08 07:22:46.582 +07:00 [DBG] POST requests are not supported
+2023-08-08 07:22:46.586 +07:00 [DBG] 1 candidate(s) found for the request path '/order/jp/callback'
+2023-08-08 07:22:46.590 +07:00 [DBG] Endpoint 'Sora.BankHubTest.Controllers.OrderController.OrderJPCallback (Sora.BankHubTest)' with route pattern 'order/jp/callback' is valid for the request path '/order/jp/callback'
+2023-08-08 07:22:46.593 +07:00 [DBG] Request matched endpoint 'Sora.BankHubTest.Controllers.OrderController.OrderJPCallback (Sora.BankHubTest)'
+2023-08-08 07:22:46.594 +07:00 [INF] Executing endpoint 'Sora.BankHubTest.Controllers.OrderController.OrderJPCallback (Sora.BankHubTest)'
+2023-08-08 07:22:46.597 +07:00 [INF] Route matched with {action = "OrderJPCallback", controller = "Order", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] OrderJPCallback(System.Object) on controller Sora.BankHubTest.Controllers.OrderController (Sora.BankHubTest).
+2023-08-08 07:22:46.600 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.AntiForgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter"]
+2023-08-08 07:22:46.604 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-08-08 07:22:46.606 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Volo.Abp.AspNetCore.Mvc.GlobalFeatures.GlobalFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Auditing.AbpAuditActionFilter","Volo.Abp.AspNetCore.Mvc.Response.AbpNoContentActionFilter","Volo.Abp.AspNetCore.Mvc.Features.AbpFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter","Volo.Abp.AspNetCore.Mvc.Uow.AbpUowActionFilter"]
+2023-08-08 07:22:46.612 +07:00 [DBG] Execution plan of exception filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter"]
+2023-08-08 07:22:46.614 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-08-08 07:22:46.616 +07:00 [DBG] Executing controller factory for controller Sora.BankHubTest.Controllers.OrderController (Sora.BankHubTest)
+2023-08-08 07:22:46.622 +07:00 [DBG] Executed controller factory for controller Sora.BankHubTest.Controllers.OrderController (Sora.BankHubTest)
+2023-08-08 07:22:46.624 +07:00 [DBG] Attempting to bind parameter 'reqBody' of type 'System.Object' ...
+2023-08-08 07:22:46.627 +07:00 [DBG] Attempting to bind parameter 'reqBody' of type 'System.Object' using the name '' in request data ...
+2023-08-08 07:22:46.631 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-08-08 07:22:46.633 +07:00 [DBG] Connection id "0HMSNKLOAJ2CH", Request id "0HMSNKLOAJ2CH:00000003": started reading request body.
+2023-08-08 07:22:46.636 +07:00 [DBG] Connection id "0HMSNKLOAJ2CH", Request id "0HMSNKLOAJ2CH:00000003": done reading request body.
+2023-08-08 07:22:46.638 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'System.Object'
+2023-08-08 07:22:46.639 +07:00 [DBG] Done attempting to bind parameter 'reqBody' of type 'System.Object'.
+2023-08-08 07:22:46.641 +07:00 [DBG] Done attempting to bind parameter 'reqBody' of type 'System.Object'.
+2023-08-08 07:22:46.643 +07:00 [DBG] Attempting to validate the bound parameter 'reqBody' of type 'System.Object' ...
+2023-08-08 07:22:46.645 +07:00 [DBG] Done attempting to validate the bound parameter 'reqBody' of type 'System.Object'.
+2023-08-08 07:22:46.648 +07:00 [DBG] OrderController-OrderJPCallback-Req: {"header":{"msgId":"20230710135000","signature":"374638489fc7b8faae879eb724f31efc"},"data":{"records":[{"orderConfirmType":1,"orderId":"1","amount":10000,"description":"DH123","transId":"JP1688971897877","bankTransId":"1688971922410"}]}
+2023-08-08 07:22:46.652 +07:00 [WRN] Current database does not support transactions. Your database may remain in an inconsistent state in an error case.
+2023-08-08 07:22:46.660 +07:00 [DBG] OrderController-OrderJPCallback-Res: {"header":{"msgId":"20230710135000","responseMsgId":"JP20230808072246","signature":"BFF67A8C5DC96B9E8C90FAB942B0C462"},"data":{"records":[{"transId":"JP1688971897877","error":2,"message":"Đơn hàng đã được xác nhận trước đó","orderAmount":null}]}
+2023-08-08 07:22:46.664 +07:00 [DBG] List of registered output formatters, in the following order: ["Volo.Abp.AspNetCore.Mvc.ContentFormatters.RemoteStreamContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-08-08 07:22:46.669 +07:00 [DBG] No information found on request to perform content negotiation.
+2023-08-08 07:22:46.671 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-08-08 07:22:46.672 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-08-08 07:22:46.673 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-08-08 07:22:46.675 +07:00 [INF] Executing ObjectResult, writing value of type 'Sora.BankHubTest.Dtos.JpBankHubWebhookResDto'.
+2023-08-08 07:22:46.678 +07:00 [INF] Executed action Sora.BankHubTest.Controllers.OrderController.OrderJPCallback (Sora.BankHubTest) in 61.6715ms
+2023-08-08 07:22:46.679 +07:00 [INF] Executed endpoint 'Sora.BankHubTest.Controllers.OrderController.OrderJPCallback (Sora.BankHubTest)'
+2023-08-08 07:22:46.681 +07:00 [DBG] Connection id "0HMSNKLOAJ2CH" completed keep alive response.
+2023-08-08 07:22:46.682 +07:00 [INF] Request finished HTTP/1.1 POST https://localhost:7266/order/jp/callback application/json 450 - 200 - application/json;+charset=utf-8 107.6862ms
+2023-08-08 07:22:53.945 +07:00 [INF] Request starting HTTP/1.1 POST https://localhost:7266/order/jp/callback application/json 450
+2023-08-08 07:22:53.947 +07:00 [DBG] The host 'localhost' is excluded. Skipping HSTS header.
+2023-08-08 07:22:53.949 +07:00 [DBG] POST requests are not supported
+2023-08-08 07:22:53.951 +07:00 [DBG] 1 candidate(s) found for the request path '/order/jp/callback'
+2023-08-08 07:22:53.954 +07:00 [DBG] Endpoint 'Sora.BankHubTest.Controllers.OrderController.OrderJPCallback (Sora.BankHubTest)' with route pattern 'order/jp/callback' is valid for the request path '/order/jp/callback'
+2023-08-08 07:22:53.957 +07:00 [DBG] Request matched endpoint 'Sora.BankHubTest.Controllers.OrderController.OrderJPCallback (Sora.BankHubTest)'
+2023-08-08 07:22:53.958 +07:00 [INF] Executing endpoint 'Sora.BankHubTest.Controllers.OrderController.OrderJPCallback (Sora.BankHubTest)'
+2023-08-08 07:22:53.961 +07:00 [INF] Route matched with {action = "OrderJPCallback", controller = "Order", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] OrderJPCallback(System.Object) on controller Sora.BankHubTest.Controllers.OrderController (Sora.BankHubTest).
+2023-08-08 07:22:53.964 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.AntiForgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter"]
+2023-08-08 07:22:53.966 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-08-08 07:22:53.968 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Volo.Abp.AspNetCore.Mvc.GlobalFeatures.GlobalFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Auditing.AbpAuditActionFilter","Volo.Abp.AspNetCore.Mvc.Response.AbpNoContentActionFilter","Volo.Abp.AspNetCore.Mvc.Features.AbpFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter","Volo.Abp.AspNetCore.Mvc.Uow.AbpUowActionFilter"]
+2023-08-08 07:22:53.975 +07:00 [DBG] Execution plan of exception filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter"]
+2023-08-08 07:22:53.977 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-08-08 07:22:53.980 +07:00 [DBG] Executing controller factory for controller Sora.BankHubTest.Controllers.OrderController (Sora.BankHubTest)
+2023-08-08 07:22:53.983 +07:00 [DBG] Executed controller factory for controller Sora.BankHubTest.Controllers.OrderController (Sora.BankHubTest)
+2023-08-08 07:22:53.985 +07:00 [DBG] Attempting to bind parameter 'reqBody' of type 'System.Object' ...
+2023-08-08 07:22:53.987 +07:00 [DBG] Attempting to bind parameter 'reqBody' of type 'System.Object' using the name '' in request data ...
+2023-08-08 07:22:53.990 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-08-08 07:22:53.992 +07:00 [DBG] Connection id "0HMSNKLOAJ2CH", Request id "0HMSNKLOAJ2CH:00000004": started reading request body.
+2023-08-08 07:22:53.994 +07:00 [DBG] Connection id "0HMSNKLOAJ2CH", Request id "0HMSNKLOAJ2CH:00000004": done reading request body.
+2023-08-08 07:22:53.996 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'System.Object'
+2023-08-08 07:22:53.998 +07:00 [DBG] Done attempting to bind parameter 'reqBody' of type 'System.Object'.
+2023-08-08 07:22:53.999 +07:00 [DBG] Done attempting to bind parameter 'reqBody' of type 'System.Object'.
+2023-08-08 07:22:54.001 +07:00 [DBG] Attempting to validate the bound parameter 'reqBody' of type 'System.Object' ...
+2023-08-08 07:22:54.004 +07:00 [DBG] Done attempting to validate the bound parameter 'reqBody' of type 'System.Object'.
+2023-08-08 07:22:54.008 +07:00 [DBG] OrderController-OrderJPCallback-Req: {"header":{"msgId":"20230710135000","signature":"374638489fc7b8faae879eb724f31efc"},"data":{"records":[{"orderConfirmType":2,"orderId":"1","amount":10000,"description":"DH123","transId":"JP1688971897877","bankTransId":"1688971922410"}]}
+2023-08-08 07:22:54.011 +07:00 [WRN] Current database does not support transactions. Your database may remain in an inconsistent state in an error case.
+2023-08-08 07:22:54.163 +07:00 [DBG] OrderController-OrderJPCallback-Res: {"header":{"msgId":"20230710135000","responseMsgId":"JP20230808072254","signature":"086FBCC31BEA6E4E5B0F722D38EBCB54"},"data":{"records":[{"transId":"JP1688971897877","error":0,"message":"Xác nhận đơn hàng thành công","orderAmount":10000}]}
+2023-08-08 07:22:54.181 +07:00 [DBG] List of registered output formatters, in the following order: ["Volo.Abp.AspNetCore.Mvc.ContentFormatters.RemoteStreamContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-08-08 07:22:54.185 +07:00 [DBG] No information found on request to perform content negotiation.
+2023-08-08 07:22:54.187 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-08-08 07:22:54.188 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-08-08 07:22:54.190 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-08-08 07:22:54.192 +07:00 [INF] Executing ObjectResult, writing value of type 'Sora.BankHubTest.Dtos.JpBankHubWebhookResDto'.
+2023-08-08 07:22:54.196 +07:00 [INF] Executed action Sora.BankHubTest.Controllers.OrderController.OrderJPCallback (Sora.BankHubTest) in 216.1512ms
+2023-08-08 07:22:54.198 +07:00 [INF] Executed endpoint 'Sora.BankHubTest.Controllers.OrderController.OrderJPCallback (Sora.BankHubTest)'
+2023-08-08 07:22:54.200 +07:00 [DBG] Connection id "0HMSNKLOAJ2CH" completed keep alive response.
+2023-08-08 07:22:54.202 +07:00 [INF] Request finished HTTP/1.1 POST https://localhost:7266/order/jp/callback application/json 450 - 200 - application/json;+charset=utf-8 257.0573ms
+2023-08-08 07:23:42.345 +07:00 [DBG] HttpMessageHandler expired after 120000ms for client 'IHttpService'
+2023-08-08 07:23:45.349 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7266/order - -
+2023-08-08 07:23:45.352 +07:00 [DBG] The host 'localhost' is excluded. Skipping HSTS header.
+2023-08-08 07:23:45.355 +07:00 [DBG] The request path /order does not match a supported file type
+2023-08-08 07:23:45.356 +07:00 [DBG] 1 candidate(s) found for the request path '/order'
+2023-08-08 07:23:45.359 +07:00 [DBG] Endpoint 'Sora.BankHubTest.Controllers.OrderController.FormCreateOrder (Sora.BankHubTest)' with route pattern 'order' is valid for the request path '/order'
+2023-08-08 07:23:45.361 +07:00 [DBG] Request matched endpoint 'Sora.BankHubTest.Controllers.OrderController.FormCreateOrder (Sora.BankHubTest)'
+2023-08-08 07:23:45.363 +07:00 [INF] Executing endpoint 'Sora.BankHubTest.Controllers.OrderController.FormCreateOrder (Sora.BankHubTest)'
+2023-08-08 07:23:45.370 +07:00 [INF] Route matched with {action = "FormCreateOrder", controller = "Order", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FormCreateOrder() on controller Sora.BankHubTest.Controllers.OrderController (Sora.BankHubTest).
+2023-08-08 07:23:45.375 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.AntiForgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter"]
+2023-08-08 07:23:45.379 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-08-08 07:23:45.381 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Volo.Abp.AspNetCore.Mvc.GlobalFeatures.GlobalFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Auditing.AbpAuditActionFilter","Volo.Abp.AspNetCore.Mvc.Response.AbpNoContentActionFilter","Volo.Abp.AspNetCore.Mvc.Features.AbpFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter","Volo.Abp.AspNetCore.Mvc.Uow.AbpUowActionFilter"]
+2023-08-08 07:23:45.388 +07:00 [DBG] Execution plan of exception filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter"]
+2023-08-08 07:23:45.390 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-08-08 07:23:45.393 +07:00 [DBG] Executing controller factory for controller Sora.BankHubTest.Controllers.OrderController (Sora.BankHubTest)
+2023-08-08 07:23:45.396 +07:00 [DBG] Executed controller factory for controller Sora.BankHubTest.Controllers.OrderController (Sora.BankHubTest)
+2023-08-08 07:23:45.432 +07:00 [DBG] View lookup cache miss for view 'Create' in controller 'Order'.
+2023-08-08 07:23:45.436 +07:00 [INF] Executing ViewResult, running view Create.
+2023-08-08 07:23:45.438 +07:00 [DBG] The view path '/Views/Order/Create.cshtml' was found in 6.7922ms.
+2023-08-08 07:23:45.450 +07:00 [DBG] Found the endpoints ["Sora.BankHubTest.Controllers.OrderController.CreateOrder (Sora.BankHubTest)","Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[CreateOrder],controller=[Order])
+2023-08-08 07:23:45.453 +07:00 [DBG] Successfully processed template order for Sora.BankHubTest.Controllers.OrderController.CreateOrder (Sora.BankHubTest) resulting in /order and 
+2023-08-08 07:23:45.456 +07:00 [DBG] Link generation succeeded for endpoints ["Sora.BankHubTest.Controllers.OrderController.CreateOrder (Sora.BankHubTest)","Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] with result /order
+2023-08-08 07:23:45.465 +07:00 [DBG] An antiforgery cookie token was reused.
+2023-08-08 07:23:45.474 +07:00 [DBG] ResourceManagerStringLocalizer searched for 'Số tiền' in 'Sora.BankHubTest.Dtos.CreateOrderDto' with culture 'en-US'.
+2023-08-08 07:23:45.496 +07:00 [DBG] ResourceManagerStringLocalizer searched for 'Số tiền' in 'Sora.BankHubTest.Dtos.CreateOrderDto' with culture 'en-US'.
+2023-08-08 07:23:45.499 +07:00 [DBG] ResourceManagerStringLocalizer searched for 'Số tiền không được để trống' in 'Sora.BankHubTest.Dtos.CreateOrderDto' with culture 'en-US'.
+2023-08-08 07:23:45.507 +07:00 [DBG] ResourceManagerStringLocalizer searched for 'Số tài khoản' in 'Sora.BankHubTest.Dtos.CreateOrderDto' with culture 'en-US'.
+2023-08-08 07:23:45.516 +07:00 [DBG] ResourceManagerStringLocalizer searched for 'Số tài khoản' in 'Sora.BankHubTest.Dtos.CreateOrderDto' with culture 'en-US'.
+2023-08-08 07:23:45.518 +07:00 [DBG] ResourceManagerStringLocalizer searched for 'Số tài khoản không được để trống' in 'Sora.BankHubTest.Dtos.CreateOrderDto' with culture 'en-US'.
+2023-08-08 07:23:45.522 +07:00 [DBG] View lookup cache hit for view '_Layout' in controller 'Order'.
+2023-08-08 07:23:45.527 +07:00 [DBG] Found the endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2023-08-08 07:23:45.529 +07:00 [DBG] Failed to process the template {area}/{controller=Home}/{action=Index}/{id?} for Route: {area}/{controller=Home}/{action=Index}/{id?}. A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "FormCreateOrder", "controller": "Order" } and { "action": "Index", "area": "", "controller": "Home" } with default values { "action": "Index", "controller": "Home" }
+2023-08-08 07:23:45.532 +07:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2023-08-08 07:23:45.534 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2023-08-08 07:23:45.537 +07:00 [DBG] Found the endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2023-08-08 07:23:45.540 +07:00 [DBG] Failed to process the template {area}/{controller=Home}/{action=Index}/{id?} for Route: {area}/{controller=Home}/{action=Index}/{id?}. A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "FormCreateOrder", "controller": "Order" } and { "action": "Index", "area": "", "controller": "Home" } with default values { "action": "Index", "controller": "Home" }
+2023-08-08 07:23:45.542 +07:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2023-08-08 07:23:45.545 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2023-08-08 07:23:45.547 +07:00 [DBG] Found the endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2023-08-08 07:23:45.549 +07:00 [DBG] Failed to process the template {area}/{controller=Home}/{action=Index}/{id?} for Route: {area}/{controller=Home}/{action=Index}/{id?}. A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "FormCreateOrder", "controller": "Order" } and { "action": "Privacy", "area": "", "controller": "Home" } with default values { "action": "Index", "controller": "Home" }
+2023-08-08 07:23:45.552 +07:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2023-08-08 07:23:45.554 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2023-08-08 07:23:45.558 +07:00 [DBG] Found the endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2023-08-08 07:23:45.560 +07:00 [DBG] Failed to process the template {area}/{controller=Home}/{action=Index}/{id?} for Route: {area}/{controller=Home}/{action=Index}/{id?}. A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "FormCreateOrder", "controller": "Order" } and { "action": "Privacy", "area": "", "controller": "Home" } with default values { "action": "Index", "controller": "Home" }
+2023-08-08 07:23:45.563 +07:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2023-08-08 07:23:45.565 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2023-08-08 07:23:45.573 +07:00 [DBG] View lookup cache miss for view '_ValidationScriptsPartial' in controller 'Order'.
+2023-08-08 07:23:45.584 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-08-08 07:23:45.593 +07:00 [INF] Executed ViewResult - view Create executed in 161.4418ms.
+2023-08-08 07:23:45.597 +07:00 [INF] Executed action Sora.BankHubTest.Controllers.OrderController.FormCreateOrder (Sora.BankHubTest) in 204.3005ms
+2023-08-08 07:23:45.599 +07:00 [INF] Executed endpoint 'Sora.BankHubTest.Controllers.OrderController.FormCreateOrder (Sora.BankHubTest)'
+2023-08-08 07:23:45.601 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-08-08 07:23:45.603 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7266/order - - - 200 - text/html;+charset=utf-8 255.0644ms
+2023-08-08 07:23:45.667 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7266/_framework/aspnetcore-browser-refresh.js - -
+2023-08-08 07:23:45.669 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7266/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 2.0369ms
+2023-08-08 07:23:45.933 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7266/orders - -
+2023-08-08 07:23:45.936 +07:00 [DBG] The host 'localhost' is excluded. Skipping HSTS header.
+2023-08-08 07:23:45.938 +07:00 [DBG] The request path /orders does not match a supported file type
+2023-08-08 07:23:45.939 +07:00 [DBG] 1 candidate(s) found for the request path '/orders'
+2023-08-08 07:23:45.941 +07:00 [DBG] Endpoint 'Sora.BankHubTest.Controllers.OrderController.GetListAsync (Sora.BankHubTest)' with route pattern 'orders' is valid for the request path '/orders'
+2023-08-08 07:23:45.944 +07:00 [DBG] Request matched endpoint 'Sora.BankHubTest.Controllers.OrderController.GetListAsync (Sora.BankHubTest)'
+2023-08-08 07:23:45.946 +07:00 [INF] Executing endpoint 'Sora.BankHubTest.Controllers.OrderController.GetListAsync (Sora.BankHubTest)'
+2023-08-08 07:23:45.953 +07:00 [INF] Route matched with {action = "GetList", controller = "Order", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetListAsync(Int32) on controller Sora.BankHubTest.Controllers.OrderController (Sora.BankHubTest).
+2023-08-08 07:23:45.956 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.AntiForgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter"]
+2023-08-08 07:23:45.959 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-08-08 07:23:45.961 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Volo.Abp.AspNetCore.Mvc.GlobalFeatures.GlobalFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Auditing.AbpAuditActionFilter","Volo.Abp.AspNetCore.Mvc.Response.AbpNoContentActionFilter","Volo.Abp.AspNetCore.Mvc.Features.AbpFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter","Volo.Abp.AspNetCore.Mvc.Uow.AbpUowActionFilter"]
+2023-08-08 07:23:45.967 +07:00 [DBG] Execution plan of exception filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter"]
+2023-08-08 07:23:45.969 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-08-08 07:23:45.972 +07:00 [DBG] Executing controller factory for controller Sora.BankHubTest.Controllers.OrderController (Sora.BankHubTest)
+2023-08-08 07:23:45.976 +07:00 [DBG] Executed controller factory for controller Sora.BankHubTest.Controllers.OrderController (Sora.BankHubTest)
+2023-08-08 07:23:45.978 +07:00 [DBG] Attempting to bind parameter 'page' of type 'System.Int32' ...
+2023-08-08 07:23:45.981 +07:00 [DBG] Attempting to bind parameter 'page' of type 'System.Int32' using the name '' in request data ...
+2023-08-08 07:23:45.984 +07:00 [DBG] Could not find a value in the request with name '' for binding parameter 'page' of type 'System.Int32'.
+2023-08-08 07:23:45.986 +07:00 [DBG] Done attempting to bind parameter 'page' of type 'System.Int32'.
+2023-08-08 07:23:45.988 +07:00 [DBG] Done attempting to bind parameter 'page' of type 'System.Int32'.
+2023-08-08 07:23:45.991 +07:00 [DBG] Attempting to validate the bound parameter 'page' of type 'System.Int32' ...
+2023-08-08 07:23:45.994 +07:00 [DBG] Done attempting to validate the bound parameter 'page' of type 'System.Int32'.
+2023-08-08 07:23:46.044 +07:00 [DBG] View lookup cache miss for view 'List' in controller 'Order'.
+2023-08-08 07:23:46.048 +07:00 [INF] Executing ViewResult, running view List.
+2023-08-08 07:23:46.049 +07:00 [DBG] The view path '/Views/Order/List.cshtml' was found in 5.5543ms.
+2023-08-08 07:23:46.057 +07:00 [DBG] View lookup cache hit for view '_Layout' in controller 'Order'.
+2023-08-08 07:23:46.059 +07:00 [DBG] Found the endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2023-08-08 07:23:46.063 +07:00 [DBG] Failed to process the template {area}/{controller=Home}/{action=Index}/{id?} for Route: {area}/{controller=Home}/{action=Index}/{id?}. A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "GetList", "controller": "Order" } and { "action": "Index", "area": "", "controller": "Home" } with default values { "action": "Index", "controller": "Home" }
+2023-08-08 07:23:46.066 +07:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2023-08-08 07:23:46.069 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2023-08-08 07:23:46.072 +07:00 [DBG] Found the endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2023-08-08 07:23:46.075 +07:00 [DBG] Failed to process the template {area}/{controller=Home}/{action=Index}/{id?} for Route: {area}/{controller=Home}/{action=Index}/{id?}. A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "GetList", "controller": "Order" } and { "action": "Index", "area": "", "controller": "Home" } with default values { "action": "Index", "controller": "Home" }
+2023-08-08 07:23:46.078 +07:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2023-08-08 07:23:46.080 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2023-08-08 07:23:46.083 +07:00 [DBG] Found the endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2023-08-08 07:23:46.086 +07:00 [DBG] Failed to process the template {area}/{controller=Home}/{action=Index}/{id?} for Route: {area}/{controller=Home}/{action=Index}/{id?}. A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "GetList", "controller": "Order" } and { "action": "Privacy", "area": "", "controller": "Home" } with default values { "action": "Index", "controller": "Home" }
+2023-08-08 07:23:46.089 +07:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2023-08-08 07:23:46.092 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2023-08-08 07:23:46.095 +07:00 [DBG] Found the endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2023-08-08 07:23:46.098 +07:00 [DBG] Failed to process the template {area}/{controller=Home}/{action=Index}/{id?} for Route: {area}/{controller=Home}/{action=Index}/{id?}. A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "GetList", "controller": "Order" } and { "action": "Privacy", "area": "", "controller": "Home" } with default values { "action": "Index", "controller": "Home" }
+2023-08-08 07:23:46.101 +07:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2023-08-08 07:23:46.104 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2023-08-08 07:23:46.107 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-08-08 07:23:46.109 +07:00 [INF] Executed ViewResult - view List executed in 65.1114ms.
+2023-08-08 07:23:46.111 +07:00 [INF] Executed action Sora.BankHubTest.Controllers.OrderController.GetListAsync (Sora.BankHubTest) in 138.9483ms
+2023-08-08 07:23:46.113 +07:00 [INF] Executed endpoint 'Sora.BankHubTest.Controllers.OrderController.GetListAsync (Sora.BankHubTest)'
+2023-08-08 07:23:46.115 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-08-08 07:23:46.117 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7266/orders - - - 200 - text/html;+charset=utf-8 183.0668ms
+2023-08-08 07:23:46.146 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7266/_framework/aspnetcore-browser-refresh.js - -
+2023-08-08 07:23:46.149 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7266/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 2.1706ms
+2023-08-08 07:23:52.359 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-08-08 07:23:52.365 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0596ms - processed: 0 items - remaining: 1 items
+2023-08-08 07:23:56.782 +07:00 [INF] Request starting HTTP/1.1 POST https://localhost:7266/order/jp/callback application/json 450
+2023-08-08 07:23:56.784 +07:00 [DBG] The host 'localhost' is excluded. Skipping HSTS header.
+2023-08-08 07:23:56.786 +07:00 [DBG] POST requests are not supported
+2023-08-08 07:23:56.787 +07:00 [DBG] 1 candidate(s) found for the request path '/order/jp/callback'
+2023-08-08 07:23:56.789 +07:00 [DBG] Endpoint 'Sora.BankHubTest.Controllers.OrderController.OrderJPCallback (Sora.BankHubTest)' with route pattern 'order/jp/callback' is valid for the request path '/order/jp/callback'
+2023-08-08 07:23:56.792 +07:00 [DBG] Request matched endpoint 'Sora.BankHubTest.Controllers.OrderController.OrderJPCallback (Sora.BankHubTest)'
+2023-08-08 07:23:56.794 +07:00 [INF] Executing endpoint 'Sora.BankHubTest.Controllers.OrderController.OrderJPCallback (Sora.BankHubTest)'
+2023-08-08 07:23:56.796 +07:00 [INF] Route matched with {action = "OrderJPCallback", controller = "Order", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] OrderJPCallback(System.Object) on controller Sora.BankHubTest.Controllers.OrderController (Sora.BankHubTest).
+2023-08-08 07:23:56.799 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.AntiForgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter"]
+2023-08-08 07:23:56.801 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-08-08 07:23:56.803 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Volo.Abp.AspNetCore.Mvc.GlobalFeatures.GlobalFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Auditing.AbpAuditActionFilter","Volo.Abp.AspNetCore.Mvc.Response.AbpNoContentActionFilter","Volo.Abp.AspNetCore.Mvc.Features.AbpFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter","Volo.Abp.AspNetCore.Mvc.Uow.AbpUowActionFilter"]
+2023-08-08 07:23:56.809 +07:00 [DBG] Execution plan of exception filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter"]
+2023-08-08 07:23:56.811 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-08-08 07:23:56.814 +07:00 [DBG] Executing controller factory for controller Sora.BankHubTest.Controllers.OrderController (Sora.BankHubTest)
+2023-08-08 07:23:56.817 +07:00 [DBG] Executed controller factory for controller Sora.BankHubTest.Controllers.OrderController (Sora.BankHubTest)
+2023-08-08 07:23:56.819 +07:00 [DBG] Attempting to bind parameter 'reqBody' of type 'System.Object' ...
+2023-08-08 07:23:56.821 +07:00 [DBG] Attempting to bind parameter 'reqBody' of type 'System.Object' using the name '' in request data ...
+2023-08-08 07:23:56.823 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-08-08 07:23:56.826 +07:00 [DBG] Connection id "0HMSNKLOAJ2CH", Request id "0HMSNKLOAJ2CH:00000005": started reading request body.
+2023-08-08 07:23:56.828 +07:00 [DBG] Connection id "0HMSNKLOAJ2CH", Request id "0HMSNKLOAJ2CH:00000005": done reading request body.
+2023-08-08 07:23:56.830 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'System.Object'
+2023-08-08 07:23:56.832 +07:00 [DBG] Done attempting to bind parameter 'reqBody' of type 'System.Object'.
+2023-08-08 07:23:56.833 +07:00 [DBG] Done attempting to bind parameter 'reqBody' of type 'System.Object'.
+2023-08-08 07:23:56.835 +07:00 [DBG] Attempting to validate the bound parameter 'reqBody' of type 'System.Object' ...
+2023-08-08 07:23:56.837 +07:00 [DBG] Done attempting to validate the bound parameter 'reqBody' of type 'System.Object'.
+2023-08-08 07:23:56.840 +07:00 [DBG] OrderController-OrderJPCallback-Req: {"header":{"msgId":"20230710135000","signature":"374638489fc7b8faae879eb724f31efc"},"data":{"records":[{"orderConfirmType":1,"orderId":"4","amount":10000,"description":"DH123","transId":"JP1688971897877","bankTransId":"1688971922410"}]}
+2023-08-08 07:23:56.844 +07:00 [WRN] Current database does not support transactions. Your database may remain in an inconsistent state in an error case.
+2023-08-08 07:23:56.856 +07:00 [DBG] OrderController-OrderJPCallback-Res: {"header":{"msgId":"20230710135000","responseMsgId":"JP20230808072356","signature":"1AC8F56C58ED75A35BE25DC55F2C57C6"},"data":{"records":[{"transId":"JP1688971897877","error":0,"message":"Xác nhận đơn hàng thành công","orderAmount":10000}]}
+2023-08-08 07:23:56.862 +07:00 [DBG] List of registered output formatters, in the following order: ["Volo.Abp.AspNetCore.Mvc.ContentFormatters.RemoteStreamContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-08-08 07:23:56.866 +07:00 [DBG] No information found on request to perform content negotiation.
+2023-08-08 07:23:56.867 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-08-08 07:23:56.868 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-08-08 07:23:56.869 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-08-08 07:23:56.871 +07:00 [INF] Executing ObjectResult, writing value of type 'Sora.BankHubTest.Dtos.JpBankHubWebhookResDto'.
+2023-08-08 07:23:56.874 +07:00 [INF] Executed action Sora.BankHubTest.Controllers.OrderController.OrderJPCallback (Sora.BankHubTest) in 60.2987ms
+2023-08-08 07:23:56.876 +07:00 [INF] Executed endpoint 'Sora.BankHubTest.Controllers.OrderController.OrderJPCallback (Sora.BankHubTest)'
+2023-08-08 07:23:56.877 +07:00 [DBG] Connection id "0HMSNKLOAJ2CH" completed keep alive response.
+2023-08-08 07:23:56.879 +07:00 [INF] Request finished HTTP/1.1 POST https://localhost:7266/order/jp/callback application/json 450 - 200 - application/json;+charset=utf-8 96.9670ms
+2023-08-08 07:24:00.529 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7266/orders - -
+2023-08-08 07:24:00.531 +07:00 [DBG] The host 'localhost' is excluded. Skipping HSTS header.
+2023-08-08 07:24:00.533 +07:00 [DBG] The request path /orders does not match a supported file type
+2023-08-08 07:24:00.535 +07:00 [DBG] 1 candidate(s) found for the request path '/orders'
+2023-08-08 07:24:00.537 +07:00 [DBG] Endpoint 'Sora.BankHubTest.Controllers.OrderController.GetListAsync (Sora.BankHubTest)' with route pattern 'orders' is valid for the request path '/orders'
+2023-08-08 07:24:00.539 +07:00 [DBG] Request matched endpoint 'Sora.BankHubTest.Controllers.OrderController.GetListAsync (Sora.BankHubTest)'
+2023-08-08 07:24:00.541 +07:00 [INF] Executing endpoint 'Sora.BankHubTest.Controllers.OrderController.GetListAsync (Sora.BankHubTest)'
+2023-08-08 07:24:00.543 +07:00 [INF] Route matched with {action = "GetList", controller = "Order", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetListAsync(Int32) on controller Sora.BankHubTest.Controllers.OrderController (Sora.BankHubTest).
+2023-08-08 07:24:00.545 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.AntiForgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter"]
+2023-08-08 07:24:00.548 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-08-08 07:24:00.550 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Volo.Abp.AspNetCore.Mvc.GlobalFeatures.GlobalFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Auditing.AbpAuditActionFilter","Volo.Abp.AspNetCore.Mvc.Response.AbpNoContentActionFilter","Volo.Abp.AspNetCore.Mvc.Features.AbpFeatureActionFilter","Volo.Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter","Volo.Abp.AspNetCore.Mvc.Uow.AbpUowActionFilter"]
+2023-08-08 07:24:00.555 +07:00 [DBG] Execution plan of exception filters (in the following order): ["Volo.Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter"]
+2023-08-08 07:24:00.557 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-08-08 07:24:00.560 +07:00 [DBG] Executing controller factory for controller Sora.BankHubTest.Controllers.OrderController (Sora.BankHubTest)
+2023-08-08 07:24:00.563 +07:00 [DBG] Executed controller factory for controller Sora.BankHubTest.Controllers.OrderController (Sora.BankHubTest)
+2023-08-08 07:24:00.565 +07:00 [DBG] Attempting to bind parameter 'page' of type 'System.Int32' ...
+2023-08-08 07:24:00.567 +07:00 [DBG] Attempting to bind parameter 'page' of type 'System.Int32' using the name '' in request data ...
+2023-08-08 07:24:00.570 +07:00 [DBG] Could not find a value in the request with name '' for binding parameter 'page' of type 'System.Int32'.
+2023-08-08 07:24:00.573 +07:00 [DBG] Done attempting to bind parameter 'page' of type 'System.Int32'.
+2023-08-08 07:24:00.575 +07:00 [DBG] Done attempting to bind parameter 'page' of type 'System.Int32'.
+2023-08-08 07:24:00.577 +07:00 [DBG] Attempting to validate the bound parameter 'page' of type 'System.Int32' ...
+2023-08-08 07:24:00.579 +07:00 [DBG] Done attempting to validate the bound parameter 'page' of type 'System.Int32'.
+2023-08-08 07:24:00.588 +07:00 [DBG] View lookup cache hit for view 'List' in controller 'Order'.
+2023-08-08 07:24:00.590 +07:00 [INF] Executing ViewResult, running view List.
+2023-08-08 07:24:00.592 +07:00 [DBG] The view path '/Views/Order/List.cshtml' was found in 4.3584ms.
+2023-08-08 07:24:00.595 +07:00 [DBG] View lookup cache hit for view '_Layout' in controller 'Order'.
+2023-08-08 07:24:00.597 +07:00 [DBG] Found the endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2023-08-08 07:24:00.599 +07:00 [DBG] Failed to process the template {area}/{controller=Home}/{action=Index}/{id?} for Route: {area}/{controller=Home}/{action=Index}/{id?}. A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "GetList", "controller": "Order" } and { "action": "Index", "area": "", "controller": "Home" } with default values { "action": "Index", "controller": "Home" }
+2023-08-08 07:24:00.603 +07:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2023-08-08 07:24:00.605 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2023-08-08 07:24:00.608 +07:00 [DBG] Found the endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2023-08-08 07:24:00.611 +07:00 [DBG] Failed to process the template {area}/{controller=Home}/{action=Index}/{id?} for Route: {area}/{controller=Home}/{action=Index}/{id?}. A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "GetList", "controller": "Order" } and { "action": "Index", "area": "", "controller": "Home" } with default values { "action": "Index", "controller": "Home" }
+2023-08-08 07:24:00.614 +07:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2023-08-08 07:24:00.616 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2023-08-08 07:24:00.619 +07:00 [DBG] Found the endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2023-08-08 07:24:00.622 +07:00 [DBG] Failed to process the template {area}/{controller=Home}/{action=Index}/{id?} for Route: {area}/{controller=Home}/{action=Index}/{id?}. A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "GetList", "controller": "Order" } and { "action": "Privacy", "area": "", "controller": "Home" } with default values { "action": "Index", "controller": "Home" }
+2023-08-08 07:24:00.625 +07:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2023-08-08 07:24:00.627 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2023-08-08 07:24:00.630 +07:00 [DBG] Found the endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2023-08-08 07:24:00.633 +07:00 [DBG] Failed to process the template {area}/{controller=Home}/{action=Index}/{id?} for Route: {area}/{controller=Home}/{action=Index}/{id?}. A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "GetList", "controller": "Order" } and { "action": "Privacy", "area": "", "controller": "Home" } with default values { "action": "Index", "controller": "Home" }
+2023-08-08 07:24:00.636 +07:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2023-08-08 07:24:00.638 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {area}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2023-08-08 07:24:00.642 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-08-08 07:24:00.643 +07:00 [INF] Executed ViewResult - view List executed in 55.8111ms.
+2023-08-08 07:24:00.645 +07:00 [INF] Executed action Sora.BankHubTest.Controllers.OrderController.GetListAsync (Sora.BankHubTest) in 85.8273ms
+2023-08-08 07:24:00.648 +07:00 [INF] Executed endpoint 'Sora.BankHubTest.Controllers.OrderController.GetListAsync (Sora.BankHubTest)'
+2023-08-08 07:24:00.649 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-08-08 07:24:00.651 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7266/orders - - - 200 - text/html;+charset=utf-8 121.5884ms
+2023-08-08 07:24:00.667 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7266/_framework/aspnetcore-browser-refresh.js - -
+2023-08-08 07:24:00.669 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7266/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 2.2885ms
+2023-08-08 07:24:02.382 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-08-08 07:24:02.384 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.007ms - processed: 0 items - remaining: 1 items
+2023-08-08 07:24:12.386 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-08-08 07:24:12.388 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0031ms - processed: 0 items - remaining: 1 items
+2023-08-08 07:24:22.400 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-08-08 07:24:22.403 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0035ms - processed: 0 items - remaining: 1 items
+2023-08-08 07:24:32.419 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-08-08 07:24:32.421 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0045ms - processed: 0 items - remaining: 1 items
+2023-08-08 07:24:42.427 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-08-08 07:24:42.429 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0036ms - processed: 0 items - remaining: 1 items
+2023-08-08 07:24:52.440 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-08-08 07:24:52.442 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0031ms - processed: 0 items - remaining: 1 items
+2023-08-08 07:25:02.446 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-08-08 07:25:02.448 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0034ms - processed: 0 items - remaining: 1 items
+2023-08-08 07:25:12.453 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-08-08 07:25:12.470 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0061ms - processed: 0 items - remaining: 1 items
+2023-08-08 07:25:22.485 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-08-08 07:25:22.487 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0034ms - processed: 0 items - remaining: 1 items
+2023-08-08 07:25:32.496 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-08-08 07:25:32.498 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0043ms - processed: 0 items - remaining: 1 items
+2023-08-08 07:25:42.501 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-08-08 07:25:42.503 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0035ms - processed: 0 items - remaining: 1 items
+2023-08-08 07:25:45.411 +07:00 [DBG] HttpMessageHandler expired after 120000ms for client 'IHttpService'
+2023-08-08 07:25:52.515 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2023-08-08 07:25:52.517 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0046ms - processed: 0 items - remaining: 2 items
+2023-08-08 07:26:02.533 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2023-08-08 07:26:02.535 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0047ms - processed: 0 items - remaining: 2 items
+2023-08-08 07:26:07.335 +07:00 [DBG] Connection id "0HMSNKLOAJ2CH" disconnecting.
+2023-08-08 07:26:07.338 +07:00 [DBG] Connection id "0HMSNKLOAJ2CH" stopped.
+2023-08-08 07:26:07.340 +07:00 [DBG] Connection id "0HMSNKLOAJ2CH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-08 07:26:12.405 +07:00 [DBG] Connection id "0HMSNKLOAJ2CF" is closing.
+2023-08-08 07:26:12.413 +07:00 [DBG] Connection id "0HMSNKLOAJ2CF" is closed. The last processed stream ID was 17.
+2023-08-08 07:26:12.420 +07:00 [DBG] The connection queue processing loop for 0HMSNKLOAJ2CF completed.
+2023-08-08 07:26:12.423 +07:00 [DBG] Connection id "0HMSNKLOAJ2CF" received FIN.
+2023-08-08 07:26:12.425 +07:00 [DBG] Connection id "0HMSNKLOAJ2CF" stopped.
+2023-08-08 07:26:12.428 +07:00 [DBG] Connection id "0HMSNKLOAJ2CF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-08 07:26:12.540 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2023-08-08 07:26:12.542 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0051ms - processed: 0 items - remaining: 2 items
+2023-08-08 07:26:22.551 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2023-08-08 07:26:22.553 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0036ms - processed: 0 items - remaining: 2 items
+2023-08-08 07:26:32.569 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2023-08-08 07:26:32.571 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0041ms - processed: 0 items - remaining: 2 items
+2023-08-08 07:26:42.576 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2023-08-08 07:26:42.578 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0038ms - processed: 0 items - remaining: 2 items
+2023-08-08 07:26:52.590 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2023-08-08 07:26:52.592 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.005ms - processed: 0 items - remaining: 2 items
+2023-08-08 07:27:02.604 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2023-08-08 07:27:02.607 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0045ms - processed: 0 items - remaining: 2 items
+2023-08-08 07:27:12.615 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2023-08-08 07:27:12.617 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0056ms - processed: 0 items - remaining: 2 items
+2023-08-08 07:27:22.634 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2023-08-08 07:27:22.636 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0048ms - processed: 0 items - remaining: 2 items
+2023-08-08 07:27:32.645 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2023-08-08 07:27:32.651 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0231ms - processed: 0 items - remaining: 2 items
